@@ -5,7 +5,7 @@ public class PersonalProfile {
         int age = 20;
         String city = "Nagpur";
         String branch = "ECE";
-        String college = "XYZ College";
+        String college = "ABC College";
         String javaExperience = "Beginner";
         String careerGoal = "Software Engineer";
 
