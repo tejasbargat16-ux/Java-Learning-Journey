@@ -15,7 +15,7 @@ Today I learned how to make Java programs make decisions using conditional state
 
 📂 Programs
 
-File| Description
+ File| Description
 "IfExample.java"| Basic "if" statement
 "IfElseExample.java"| Basic "if-else" statement
 "GradeCalculator.java"| Calculates grade based on percentage
@@ -31,6 +31,7 @@ File| Description
 📁 Folder Structure
 
 Day-03-Conditional-Statements/
+
 │
 ├── README.md
 ├── IfExample.java
