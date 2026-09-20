@@ -1,19 +1,15 @@
 import java.util.Scanner;
 
 public class CalculatorMethods {
-
     static double add(double a, double b) {
         return a + b;
     }
-
     static double subtract(double a, double b) {
         return a - b;
     }
-
     static double multiply(double a, double b) {
         return a * b;
     }
-
     static double divide(double a, double b) {
 
         if (b == 0) {
@@ -22,9 +18,7 @@ public class CalculatorMethods {
 
         return a / b;
     }
-
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
@@ -43,7 +37,6 @@ public class CalculatorMethods {
         } else {
             System.out.println("Division: Cannot divide by zero.");
         }
-
         scanner.close();
     }
 }
