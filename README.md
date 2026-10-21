@@ -1,54 +1,181 @@
-☕ Java Learning Journey
+<div align="center">
 
-Welcome to my Java Learning Journey 🚀
+![Java Learning Journey Banner](images/banner.png)
 
-I’m learning Java from the basics and improving my programming skills through daily practice, problem-solving, and projects.
+# ☕ Java Learning Journey
 
-🎯 My Goal
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![Progress](https://img.shields.io/badge/Progress-Day%2010%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
+[![Learning-Pace](https://img.shields.io/badge/Daily%20Practice-Consistent-3b82f6?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
+[![Built-By](https://img.shields.io/badge/Built%20By-Tejas-f97316?style=for-the-badge)](https://github.com/tejasbargat16-ux)
 
-- Learn Java step by step
-- Build strong programming fundamentals
-- Practice regularly
-- Create real-world Java projects
-- Maintain my progress publicly on GitHub
-
-📚 What I'm Learning
-
-- Java Basics
-- Variables & Data Types
-- Conditions & Loops
-- Methods
-- Arrays & Strings
-- OOP
-- Exception Handling
-- Collections
-- File Handling
-- JDBC & MySQL
-- Projects
-
-🗂️ Repository Structure
-
-Java-Learning-Journey/
-├── Day-01-Basics/
-├── Day-02-Variables/
-├── Day-03-Input-Output/
-├── Day-04-Conditions/
-├── Day-05-Loops/
-├── OOP/
-├── Collections/
-├── JDBC/
-└── Projects/
-
-Each topic contains my learning notes, Java programs, and practice problems.
-
-📈 Progress
-
-I’m following a 60-day Java learning plan and documenting my progress through GitHub commits and projects.
-
-«Learn → Code → Practice → Build → Repeat 🔥»
+**From Basic Syntax to Real-World Projects**  
+*« Learn → Code → Practice → Build → Repeat 🔥 »*
 
 ---
 
-Started: September 2026
-Goal: Become confident in Java and build useful projects.
-# Java-Learning-Journey
+</div>
+
+## 📌 About The Journey
+
+Welcome to my **Java Learning Journey**! 🚀
+
+This repository documents my structured 60-day roadmap from core syntax fundamentals to advanced Object-Oriented Programming (OOP) and real-world projects. Every single day includes documented source code, conceptual notes, and practical problem-solving exercises.
+
+---
+
+## 🗺️ 60-Day Roadmap & Milestones
+
+<div align="center">
+  <img src="images/roadmap.jpg" alt="Java Learning Journey 60 Days Roadmap" width="100%"/>
+</div>
+
+---
+
+## 🎯 My Goals
+
+- 🧩 **Solid Foundations:** Master core Java syntax, operators, memory behavior, and control flow.
+- 🧱 **Object-Oriented Excellence:** Deeply understand encapsulation, inheritance, polymorphism, and abstraction.
+- 📦 **Data Structures & Collections:** Implement lists, sets, maps, queues, and explore their time complexities.
+- 💾 **Data Persistence:** Work with Java File I/O and connect databases using JDBC & MySQL.
+- 🛠️ **Real-World Projects:** Build robust console apps and full-stack software.
+- 📖 **Document & Share:** Commit daily code to showcase consistent growth publicly on GitHub.
+
+---
+
+## 📚 Topics Covered
+
+| Day | Topic | Highlights & Key Concepts | Status |
+|:---:|:---|:---|:---:|
+| **01** | [Basics](Day-01-Basics) | Hello World, Variables, Data Types, Basic Calculations | ✅ Completed |
+| **02** | [Input & Operators](Day-02-Input-Operators) | Scanner Class, Arithmetic, Logical & Relational Operators | ✅ Completed |
+| **03** | [Conditional Statements](Day-03-Conditional-Statements) | If-Else, Nested If, Switch Case, Grade & Bill Calculators | ✅ Completed |
+| **04** | [Loops](Day-04-Loops) | For, While, Do-While, Break & Continue, Star Patterns, Fibonacci | ✅ Completed |
+| **05** | [Arrays](Day-05-Arrays) | 1D & 2D Arrays, Element Search, Sorting, Matrix Operations | ✅ Completed |
+| **06** | [Strings](Day-06-Strings) | String Methods, Immutability, Palindromes, Word & Char Counters | ✅ Completed |
+| **07** | [Methods](Day-07-Methods) | Method Parameters, Return Types, Method Overloading, Recursion | ✅ Completed |
+| **08** | [Classes & Objects](Day-08-Classes-Objects) | OOP Paradigm, Constructors, Instance Variables, `this` Keyword | ✅ Completed |
+| **09** | [Encapsulation](Day-09-Encapsulation) | Access Modifiers, Getters & Setters, Data Hiding, Bank Demo | ✅ Completed |
+| **10** | [Inheritance](Day-10—Inheritance) | `extends`, `super` Keyword, Method Overriding, Hierarchical Models | ✅ Completed |
+
+---
+
+## 🔜 Coming Up Next
+
+```
+Day 11 - 20: Polymorphism, Abstraction, Interfaces & Abstract Classes
+Day 21 - 30: Exception Handling, Generics & Java Collections Framework (List, Set, Map)
+Day 31 - 40: Java File I/O, Serialization, Multithreading & Concurrency
+Day 41 - 50: JDBC & MySQL Database Connectivity (CRUD Operations & PreparedStatements)
+Day 51 - 60: Real-World Applications & Capstone Projects
+```
+
+---
+
+## 🏗️ Architecture & Concepts
+
+### 1. Learning Progression Flow
+
+```mermaid
+flowchart LR
+    A[Basics] --> B[Input & Operators]
+    B --> C[Conditionals]
+    C --> D[Loops]
+    D --> E[Arrays]
+    E --> F[Strings]
+    F --> G[Methods]
+    G --> H[Classes & Objects]
+    H --> I[Encapsulation]
+    I --> J[Inheritance]
+    J --> K[Polymorphism & Abstraction]
+    K --> L[Exceptions & Collections]
+    L --> M[File Handling & JDBC]
+    M --> N[Real-World Projects]
+```
+
+### 2. Inheritance Hierarchy (Day 10 Showcase)
+
+```mermaid
+classDiagram
+    Vehicle <|-- Car
+    Vehicle <|-- VehiclePractice
+    VehiclePractice <|-- BikePractice
+    Animal <|-- Dog
+    Person <|-- Student
+    PersonPractice <|-- TeacherPractice
+    Employee <|-- Developer
+    ShapePractice <|-- RectanglePractice
+```
+
+---
+
+## 🗂️ Repository Structure
+
+```
+Java-Learning-Journey/
+├── Day-01-Basics/
+├── Day-02-Input-Operators/
+├── Day-03-Conditional-Statements/
+├── Day-04-Loops/
+├── Day-05-Arrays/
+├── Day-06-Strings/
+├── Day-07-Methods/
+├── Day-08-Classes-Objects/
+├── Day-09-Encapsulation/
+├── Day-10—Inheritance/
+├── images/
+│   ├── banner.png
+│   └── roadmap.jpg
+├── .gitignore
+└── README.md
+```
+
+> Each day folder contains dedicated Java source files, practice programs, and a dedicated `README.md` explaining theory and problem statements.
+
+---
+
+## ▶️ How to Run
+
+### Prerequisites
+- [JDK 17+](https://www.oracle.com/java/technologies/downloads/) installed.
+- Terminal or any IDE (VS Code, IntelliJ IDEA, Eclipse).
+
+### Compile & Execute Any Program
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/tejasbargat16-ux/Java-Learning-Journey.git
+   cd Java-Learning-Journey
+   ```
+
+2. **Navigate to the topic folder:**
+   ```bash
+   cd Day-01-Basics
+   ```
+
+3. **Compile the Java file:**
+   ```bash
+   javac HelloWorld.java
+   ```
+
+4. **Run the compiled byte code:**
+   ```bash
+   java HelloWorld
+   ```
+
+> 💡 **Note:** Ensure class names match their corresponding `.java` file name when compiling and running Java programs.
+
+---
+
+## 📈 Current Progress
+
+- **Completed:** Day 10 of 60 days
+- **Status:** In Progress 🚀
+- **Started:** September 2026
+
+<div align="center">
+
+**« Keep Learning, Keep Building, Keep Growing »**  
+*Built with ❤️ by Tejas*
+
+</div>
