@@ -5,7 +5,7 @@
 # ☕ Java Learning Journey
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2010%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
+[![Progress](https://img.shields.io/badge/Progress-Day%2011%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
 [![Learning-Pace](https://img.shields.io/badge/Daily%20Practice-Consistent-3b82f6?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
 [![Built-By](https://img.shields.io/badge/Built%20By-Tejas-f97316?style=for-the-badge)](https://github.com/tejasbargat16-ux)
 
@@ -20,7 +20,7 @@
 
 Welcome to my **Java Learning Journey**! 🚀
 
-This repository documents my structured 60-day roadmap from core syntax fundamentals to advanced Object-Oriented Programming (OOP) and real-world projects. Every single day includes documented source code, conceptual notes, and practical problem-solving exercises.
+This repository documents my structured 60-day roadmap from core syntax fundamentals to advanced Object-Oriented Programming (OOP) and real-world projects. Every day includes documented source code, concept notes, and practical problem-solving exercises.
 
 ---
 
@@ -34,7 +34,7 @@ This repository documents my structured 60-day roadmap from core syntax fundamen
 
 ## 🎯 My Goals
 
-- 🧩 **Solid Foundations:** Master core Java syntax, operators, memory behavior, and control flow.
+- 🧩 **Solid Foundations:** Master core Java syntax, operators, and control flow.
 - 🧱 **Object-Oriented Excellence:** Deeply understand encapsulation, inheritance, polymorphism, and abstraction.
 - 📦 **Data Structures & Collections:** Implement lists, sets, maps, queues, and explore their time complexities.
 - 💾 **Data Persistence:** Work with Java File I/O and connect databases using JDBC & MySQL.
@@ -56,14 +56,15 @@ This repository documents my structured 60-day roadmap from core syntax fundamen
 | **07** | [Methods](Day-07-Methods) | Method Parameters, Return Types, Method Overloading, Recursion | ✅ Completed |
 | **08** | [Classes & Objects](Day-08-Classes-Objects) | OOP Paradigm, Constructors, Instance Variables, `this` Keyword | ✅ Completed |
 | **09** | [Encapsulation](Day-09-Encapsulation) | Access Modifiers, Getters & Setters, Data Hiding, Bank Demo | ✅ Completed |
-| **10** | [Inheritance](Day-10—Inheritance) | `extends`, `super` Keyword, Method Overriding, Hierarchical Models | ✅ Completed |
+| **10** | [Inheritance](Day-10-Inheritance) | `extends`, `super` Keyword, Method Overriding, Hierarchical Models | ✅ Completed |
+| **11** | [Polymorphism](Day-11-Polymorphism) | Method Overloading & Overriding, Dynamic Dispatch, Payment & Shape Demos | ✅ Completed |
 
 ---
 
 ## 🔜 Coming Up Next
 
 ```
-Day 11 - 20: Polymorphism, Abstraction, Interfaces & Abstract Classes
+Day 12 - 20: Abstraction, Interfaces & Abstract Classes
 Day 21 - 30: Exception Handling, Generics & Java Collections Framework (List, Set, Map)
 Day 31 - 40: Java File I/O, Serialization, Multithreading & Concurrency
 Day 41 - 50: JDBC & MySQL Database Connectivity (CRUD Operations & PreparedStatements)
@@ -87,10 +88,11 @@ flowchart LR
     G --> H[Classes & Objects]
     H --> I[Encapsulation]
     I --> J[Inheritance]
-    J --> K[Polymorphism & Abstraction]
-    K --> L[Exceptions & Collections]
-    L --> M[File Handling & JDBC]
-    M --> N[Real-World Projects]
+    J --> K[Polymorphism]
+    K --> L[Abstraction & Interfaces]
+    L --> M[Exceptions & Collections]
+    M --> N[File Handling & JDBC]
+    N --> O[Real-World Projects]
 ```
 
 ### 2. Inheritance Hierarchy (Day 10 Showcase)
@@ -107,30 +109,266 @@ classDiagram
     ShapePractice <|-- RectanglePractice
 ```
 
+### 3. Polymorphism Hierarchy (Day 11 Showcase)
+
+```mermaid
+classDiagram
+    Payment <|-- UPIPayment
+    Payment <|-- CardPayment
+    Shape <|-- Circle
+    Shape <|-- RectangleShape
+    AnimalPoly <|-- DogPoly
+    AnimalPoly <|-- CatPoly
+```
+
 ---
 
 ## 🗂️ Repository Structure
 
-```
-Java-Learning-Journey/
-├── Day-01-Basics/
-├── Day-02-Input-Operators/
-├── Day-03-Conditional-Statements/
-├── Day-04-Loops/
-├── Day-05-Arrays/
-├── Day-06-Strings/
-├── Day-07-Methods/
-├── Day-08-Classes-Objects/
-├── Day-09-Encapsulation/
-├── Day-10—Inheritance/
-├── images/
-│   ├── banner.png
-│   └── roadmap.jpg
-├── .gitignore
-└── README.md
-```
+> 🤖 This section is auto-updated by a GitHub Action on every push.
 
-> Each day folder contains dedicated Java source files, practice programs, and a dedicated `README.md` explaining theory and problem statements.
+<!-- STRUCTURE:START -->
+**12 folders · 159 files** — tap a folder to expand 👇
+
+<details>
+<summary>📁 <b>Day-01-Basics</b> — 8 files</summary>
+
+- ☕ [BasicCalculation.java](Day-01-Basics/BasicCalculation.java)
+- ☕ [Calculator.java](Day-01-Basics/Calculator.java)
+- ☕ [HelloWorld.java](Day-01-Basics/HelloWorld.java)
+- ☕ [MyIntroduction.java](Day-01-Basics/MyIntroduction.java)
+- ☕ [PersonalProfile.java](Day-01-Basics/PersonalProfile.java)
+- 📝 [README.md](Day-01-Basics/README.md)
+- ☕ [StudentDetails.java](Day-01-Basics/StudentDetails.java)
+- ☕ [Variables.java](Day-01-Basics/Variables.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-02-Input-Operators</b> — 9 files</summary>
+
+- ☕ [ArithmeticOperators.java](Day-02-Input-Operators/ArithmeticOperators.java)
+- ☕ [Calculator.java](Day-02-Input-Operators/Calculator.java)
+- ☕ [MarksCalculator.java](Day-02-Input-Operators/MarksCalculator.java)
+- ☕ [PersonalInfo.java](Day-02-Input-Operators/PersonalInfo.java)
+- 📝 [README.md](Day-02-Input-Operators/README.md)
+- ☕ [RectangleCalculator.java](Day-02-Input-Operators/RectangleCalculator.java)
+- ☕ [SimpleInterest.java](Day-02-Input-Operators/SimpleInterest.java)
+- ☕ [StudentInput.java](Day-02-Input-Operators/StudentInput.java)
+- ☕ [UserInput.java](Day-02-Input-Operators/UserInput.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-03-Conditional-Statements</b> — 12 files</summary>
+
+- ☕ [AgeChecker.java](Day-03-Conditional-Statements/AgeChecker.java)
+- ☕ [ElectricityBill.java](Day-03-Conditional-Statements/ElectricityBill.java)
+- ☕ [EvenOdd.java](Day-03-Conditional-Statements/EvenOdd.java)
+- ☕ [GradeCalculator.java](Day-03-Conditional-Statements/GradeCalculator.java)
+- ☕ [IfElseExample.java](Day-03-Conditional-Statements/IfElseExample.java)
+- ☕ [IfExample.java](Day-03-Conditional-Statements/IfExample.java)
+- ☕ [LargestNumber.java](Day-03-Conditional-Statements/LargestNumber.java)
+- ☕ [LargestOfThree.java](Day-03-Conditional-Statements/LargestOfThree.java)
+- ☕ [LoginChecker.java](Day-03-Conditional-Statements/LoginChecker.java)
+- ☕ [NumberChecker.java](Day-03-Conditional-Statements/NumberChecker.java)
+- ☕ [PracticeResult.java](Day-03-Conditional-Statements/PracticeResult.java)
+- 📝 [README.md](Day-03-Conditional-Statements/README.md)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-04-Loops</b> — 18 files</summary>
+
+- ☕ [BreakExample.java](Day-04-Loops/BreakExample.java)
+- ☕ [ContinueExample.java](Day-04-Loops/ContinueExample.java)
+- ☕ [CountDigits.java](Day-04-Loops/CountDigits.java)
+- ☕ [Countdown.java](Day-04-Loops/Countdown.java)
+- ☕ [DoWhileLoop.java](Day-04-Loops/DoWhileLoop.java)
+- ☕ [EvenNumbers.java](Day-04-Loops/EvenNumbers.java)
+- ☕ [Factorial.java](Day-04-Loops/Factorial.java)
+- ☕ [Fibonacci.java](Day-04-Loops/Fibonacci.java)
+- ☕ [ForLoop.java](Day-04-Loops/ForLoop.java)
+- ☕ [NumberAnalyzer.java](Day-04-Loops/NumberAnalyzer.java)
+- ☕ [NumberTable.java](Day-04-Loops/NumberTable.java)
+- ☕ [PracticeSum.java](Day-04-Loops/PracticeSum.java)
+- ☕ [PrimeNumber.java](Day-04-Loops/PrimeNumber.java)
+- 📝 [README.md](Day-04-Loops/README.md)
+- ☕ [ReverseNumber.java](Day-04-Loops/ReverseNumber.java)
+- ☕ [StarPattern.java](Day-04-Loops/StarPattern.java)
+- ☕ [SumOfNumbers.java](Day-04-Loops/SumOfNumbers.java)
+- ☕ [WhileLoop.java](Day-04-Loops/WhileLoop.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-05-Arrays</b> — 14 files</summary>
+
+- ☕ [ArrayAnalyzer.java](Day-05-Arrays/ArrayAnalyzer.java)
+- ☕ [ArrayAverage.java](Day-05-Arrays/ArrayAverage.java)
+- ☕ [ArrayBasics.java](Day-05-Arrays/ArrayBasics.java)
+- ☕ [ArrayInput.java](Day-05-Arrays/ArrayInput.java)
+- ☕ [ArraySum.java](Day-05-Arrays/ArraySum.java)
+- ☕ [MatrixAddition.java](Day-05-Arrays/MatrixAddition.java)
+- ☕ [MaximumElement.java](Day-05-Arrays/MaximumElement.java)
+- ☕ [MinimumElement.java](Day-05-Arrays/MinimumElement.java)
+- ☕ [PracticeEvenArray.java](Day-05-Arrays/PracticeEvenArray.java)
+- 📝 [README.md](Day-05-Arrays/README.md)
+- ☕ [ReverseArray.java](Day-05-Arrays/ReverseArray.java)
+- ☕ [SearchElement.java](Day-05-Arrays/SearchElement.java)
+- ☕ [SortArray.java](Day-05-Arrays/SortArray.java)
+- ☕ [TwoDimensionalArray.java](Day-05-Arrays/TwoDimensionalArray.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-06-Strings</b> — 17 files</summary>
+
+- ☕ [CharacterAccess.java](Day-06-Strings/CharacterAccess.java)
+- ☕ [CharacterCounter.java](Day-06-Strings/CharacterCounter.java)
+- ☕ [CharacterFrequency.java](Day-06-Strings/CharacterFrequency.java)
+- ☕ [Palindrome.java](Day-06-Strings/Palindrome.java)
+- 📝 [README.md](Day-06-Strings/README.md)
+- ☕ [RemoveSpaces.java](Day-06-Strings/RemoveSpaces.java)
+- ☕ [ReverseString.java](Day-06-Strings/ReverseString.java)
+- ☕ [StringAnalyzer.java](Day-06-Strings/StringAnalyzer.java)
+- ☕ [StringBasics.java](Day-06-Strings/StringBasics.java)
+- ☕ [StringCase.java](Day-06-Strings/StringCase.java)
+- ☕ [StringComparison.java](Day-06-Strings/StringComparison.java)
+- ☕ [StringLength.java](Day-06-Strings/StringLength.java)
+- ☕ [StringSearch.java](Day-06-Strings/StringSearch.java)
+- ☕ [SubstringExample.java](Day-06-Strings/SubstringExample.java)
+- ☕ [VowelConsonant.java](Day-06-Strings/VowelConsonant.java)
+- ☕ [VowelCounter.java](Day-06-Strings/VowelCounter.java)
+- ☕ [WordCounter.java](Day-06-Strings/WordCounter.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-07-Methods</b> — 13 files</summary>
+
+- ☕ [ArrayMethods.java](Day-07-Methods/ArrayMethods.java)
+- ☕ [CalculatorMethods.java](Day-07-Methods/CalculatorMethods.java)
+- ☕ [EvenOddMethod.java](Day-07-Methods/EvenOddMethod.java)
+- ☕ [FactorialMethod.java](Day-07-Methods/FactorialMethod.java)
+- ☕ [LargestMethod.java](Day-07-Methods/LargestMethod.java)
+- ☕ [MethodOverloading.java](Day-07-Methods/MethodOverloading.java)
+- ☕ [ParameterMethod.java](Day-07-Methods/ParameterMethod.java)
+- ☕ [PracticeMethods.java](Day-07-Methods/PracticeMethods.java)
+- 📝 [README.md](Day-07-Methods/README.md)
+- ☕ [ReturnMethod.java](Day-07-Methods/ReturnMethod.java)
+- ☕ [SimpleMethod.java](Day-07-Methods/SimpleMethod.java)
+- ☕ [StringMethods.java](Day-07-Methods/StringMethods.java)
+- ☕ [StudentResult.java](Day-07-Methods/StudentResult.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-08-Classes-Objects</b> — 17 files</summary>
+
+- ☕ [BankAccount.java](Day-08-Classes-Objects/BankAccount.java)
+- ☕ [BankDemo.java](Day-08-Classes-Objects/BankDemo.java)
+- ☕ [Car.java](Day-08-Classes-Objects/Car.java)
+- ☕ [CarDemo.java](Day-08-Classes-Objects/CarDemo.java)
+- ☕ [ConstructorExample.java](Day-08-Classes-Objects/ConstructorExample.java)
+- ☕ [Employee.java](Day-08-Classes-Objects/Employee.java)
+- ☕ [EmployeeDemo.java](Day-08-Classes-Objects/EmployeeDemo.java)
+- ☕ [MobileDemo.java](Day-08-Classes-Objects/MobileDemo.java)
+- ☕ [MobilePhone.java](Day-08-Classes-Objects/MobilePhone.java)
+- 📝 [README.md](Day-08-Classes-Objects/README.md)
+- ☕ [Rectangle.java](Day-08-Classes-Objects/Rectangle.java)
+- ☕ [RectangleDemo.java](Day-08-Classes-Objects/RectangleDemo.java)
+- ☕ [Student.java](Day-08-Classes-Objects/Student.java)
+- ☕ [StudentDemo.java](Day-08-Classes-Objects/StudentDemo.java)
+- ☕ [StudentManagement.java](Day-08-Classes-Objects/StudentManagement.java)
+- ☕ [Students.java](Day-08-Classes-Objects/Students.java)
+- ☕ [ThisKeyword.java](Day-08-Classes-Objects/ThisKeyword.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-09-Encapsulation</b> — 14 files</summary>
+
+- ☕ [BankAccount.java](Day-09-Encapsulation/BankAccount.java)
+- ☕ [BankAccountPractice.java](Day-09-Encapsulation/BankAccountPractice.java)
+- ☕ [BankDemo.java](Day-09-Encapsulation/BankDemo.java)
+- ☕ [Employee.java](Day-09-Encapsulation/Employee.java)
+- ☕ [EmployeeDemo.java](Day-09-Encapsulation/EmployeeDemo.java)
+- ☕ [EncapsulationBasic.java](Day-09-Encapsulation/EncapsulationBasic.java)
+- ☕ [Mobile.java](Day-09-Encapsulation/Mobile.java)
+- ☕ [Person.java](Day-09-Encapsulation/Person.java)
+- ☕ [Product.java](Day-09-Encapsulation/Product.java)
+- ☕ [ProductDemo.java](Day-09-Encapsulation/ProductDemo.java)
+- 📝 [README.md](Day-09-Encapsulation/README.md)
+- ☕ [SecureStudent.java](Day-09-Encapsulation/SecureStudent.java)
+- ☕ [Student.java](Day-09-Encapsulation/Student.java)
+- ☕ [StudentDemo.java](Day-09-Encapsulation/StudentDemo.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-10-Inheritance</b> — 16 files</summary>
+
+- ☕ [Animal.java](Day-10-Inheritance/Animal.java)
+- ☕ [AnimalDemo.java](Day-10-Inheritance/AnimalDemo.java)
+- ☕ [Car.java](Day-10-Inheritance/Car.java)
+- ☕ [Developer.java](Day-10-Inheritance/Developer.java)
+- ☕ [Dog.java](Day-10-Inheritance/Dog.java)
+- ☕ [Employee.java](Day-10-Inheritance/Employee.java)
+- ☕ [EmployeeManagement.java](Day-10-Inheritance/EmployeeManagement.java)
+- ☕ [Main.java](Day-10-Inheritance/Main.java)
+- ☕ [Person.java](Day-10-Inheritance/Person.java)
+- 📝 [README.md](Day-10-Inheritance/README.md)
+- ☕ [RectanglePractice.java](Day-10-Inheritance/RectanglePractice.java)
+- ☕ [Student.java](Day-10-Inheritance/Student.java)
+- ☕ [StudentDemo.java](Day-10-Inheritance/StudentDemo.java)
+- ☕ [TeacherPractice.java](Day-10-Inheritance/TeacherPractice.java)
+- ☕ [Vehicle.java](Day-10-Inheritance/Vehicle.java)
+- ☕ [VehicleDemo.java](Day-10-Inheritance/VehicleDemo.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-11-Polymorphism</b> — 18 files</summary>
+
+- ☕ [AnimalArrayDemo.java](Day-11-Polymorphism/AnimalArrayDemo.java)
+- ☕ [AnimalPoly.java](Day-11-Polymorphism/AnimalPoly.java)
+- ☕ [AreaOverloading.java](Day-11-Polymorphism/AreaOverloading.java)
+- ☕ [CalculatorOverloading.java](Day-11-Polymorphism/CalculatorOverloading.java)
+- ☕ [CardPayment.java](Day-11-Polymorphism/CardPayment.java)
+- ☕ [CatPoly.java](Day-11-Polymorphism/CatPoly.java)
+- ☕ [Circle.java](Day-11-Polymorphism/Circle.java)
+- ☕ [DogPoly.java](Day-11-Polymorphism/DogPoly.java)
+- ☕ [EmployeeSalaryDemo.java](Day-11-Polymorphism/EmployeeSalaryDemo.java)
+- ☕ [NotificationDemo.java](Day-11-Polymorphism/NotificationDemo.java)
+- ☕ [Payment.java](Day-11-Polymorphism/Payment.java)
+- ☕ [PaymentDemo.java](Day-11-Polymorphism/PaymentDemo.java)
+- ☕ [PolymorphismDemo.java](Day-11-Polymorphism/PolymorphismDemo.java)
+- 📝 [README.md](Day-11-Polymorphism/README.md)
+- ☕ [RectangleShape.java](Day-11-Polymorphism/RectangleShape.java)
+- ☕ [Shape.java](Day-11-Polymorphism/Shape.java)
+- ☕ [ShapeCalculator.java](Day-11-Polymorphism/ShapeCalculator.java)
+- ☕ [UPIPayment.java](Day-11-Polymorphism/UPIPayment.java)
+
+</details>
+
+<details>
+<summary>📁 <b>images</b> — 2 files</summary>
+
+- 🖼️ [banner.png](images/banner.png)
+- 🖼️ [roadmap.jpg](images/roadmap.jpg)
+
+</details>
+
+<details>
+<summary>📁 <b>Root files</b> — 1 files</summary>
+
+- 📝 [README.md](README.md)
+
+</details>
+<!-- STRUCTURE:END -->
+
+> Each day folder contains dedicated Java source files, practice programs, and a `README.md` explaining theory and problem statements.
 
 ---
 
@@ -138,7 +376,7 @@ Java-Learning-Journey/
 
 ### Prerequisites
 - [JDK 17+](https://www.oracle.com/java/technologies/downloads/) installed.
-- Terminal or any IDE (VS Code, IntelliJ IDEA, Eclipse).
+- Terminal or any IDE (VS Code, IntelliJ IDEA, Eclipse). On Android, Termux with `pkg install openjdk-17` works too.
 
 ### Compile & Execute Any Program
 
@@ -158,18 +396,18 @@ Java-Learning-Journey/
    javac HelloWorld.java
    ```
 
-4. **Run the compiled byte code:**
+4. **Run the compiled bytecode:**
    ```bash
    java HelloWorld
    ```
 
-> 💡 **Note:** Ensure class names match their corresponding `.java` file name when compiling and running Java programs.
+> 💡 **Note:** Class names must match their `.java` file name when compiling and running Java programs.
 
 ---
 
 ## 📈 Current Progress
 
-- **Completed:** Day 10 of 60 days
+- **Completed:** Day 11 of 60 days
 - **Status:** In Progress 🚀
 - **Started:** September 2026
 
@@ -179,184 +417,3 @@ Java-Learning-Journey/
 *Built with ❤️ by Tejas*
 
 </div>
-
-## 📂 Repo Structure
-<!-- STRUCTURE:START -->
-```
-./
-├── Day-01-Basics/
-│   ├── BasicCalculation.java
-│   ├── Calculator.java
-│   ├── HelloWorld.java
-│   ├── MyIntroduction.java
-│   ├── PersonalProfile.java
-│   ├── README.md
-│   ├── StudentDetails.java
-│   └── Variables.java
-├── Day-02-Input-Operators/
-│   ├── ArithmeticOperators.java
-│   ├── Calculator.java
-│   ├── MarksCalculator.java
-│   ├── PersonalInfo.java
-│   ├── README.md
-│   ├── RectangleCalculator.java
-│   ├── SimpleInterest.java
-│   ├── StudentInput.java
-│   └── UserInput.java
-├── Day-03-Conditional-Statements/
-│   ├── AgeChecker.java
-│   ├── ElectricityBill.java
-│   ├── EvenOdd.java
-│   ├── GradeCalculator.java
-│   ├── IfElseExample.java
-│   ├── IfExample.java
-│   ├── LargestNumber.java
-│   ├── LargestOfThree.java
-│   ├── LoginChecker.java
-│   ├── NumberChecker.java
-│   ├── PracticeResult.java
-│   └── README.md
-├── Day-04-Loops/
-│   ├── BreakExample.java
-│   ├── ContinueExample.java
-│   ├── CountDigits.java
-│   ├── Countdown.java
-│   ├── DoWhileLoop.java
-│   ├── EvenNumbers.java
-│   ├── Factorial.java
-│   ├── Fibonacci.java
-│   ├── ForLoop.java
-│   ├── NumberAnalyzer.java
-│   ├── NumberTable.java
-│   ├── PracticeSum.java
-│   ├── PrimeNumber.java
-│   ├── README.md
-│   ├── ReverseNumber.java
-│   ├── StarPattern.java
-│   ├── SumOfNumbers.java
-│   └── WhileLoop.java
-├── Day-05-Arrays/
-│   ├── ArrayAnalyzer.java
-│   ├── ArrayAverage.java
-│   ├── ArrayBasics.java
-│   ├── ArrayInput.java
-│   ├── ArraySum.java
-│   ├── MatrixAddition.java.l
-│   ├── MaximumElement.java
-│   ├── MinimumElement.java
-│   ├── PracticeEvenArray.java
-│   ├── README.md
-│   ├── ReverseArray.java
-│   ├── SearchElement.java
-│   ├── SortArray.java
-│   └── TwoDimensionalArray.java
-├── Day-06-Strings/
-│   ├── CharacterAccess.java
-│   ├── CharacterCounter.java
-│   ├── CharacterFrequency.java
-│   ├── Palindrome.java
-│   ├── README.md
-│   ├── RemoveSpaces.java
-│   ├── ReverseString.java
-│   ├── StringAnalyzer.java
-│   ├── StringBasics.java
-│   ├── StringCase.java
-│   ├── StringComparison.java
-│   ├── StringLength.java
-│   ├── StringSearch.java
-│   ├── SubstringExample.java
-│   ├── VowelConsonant.java
-│   ├── VowelCounter.java
-│   └── WordCounter.java
-├── Day-07-Methods/
-│   ├── ArrayMethods.java
-│   ├── CalculatorMethods.java
-│   ├── EvenOddMethod.java
-│   ├── FactorialMethod.java
-│   ├── LargestMethod.java
-│   ├── MethodOverloading.java
-│   ├── ParameterMethod.java
-│   ├── PracticeMethods.java
-│   ├── README.md
-│   ├── ReturnMethod.java
-│   ├── SimpleMethod.java
-│   ├── StringMethods.java
-│   └── StudentResult.java
-├── Day-08-Classes-Objects/
-│   ├── BankAccount.java
-│   ├── BankDemo.java
-│   ├── Car.java
-│   ├── CarDemo.java
-│   ├── ConstructorExample.java
-│   ├── Employee.java
-│   ├── EmployeeDemo.java
-│   ├── MobileDemo.java
-│   ├── MobilePhone.java
-│   ├── README.md
-│   ├── Rectangle.java
-│   ├── RectangleDemo.java
-│   ├── Student.java
-│   ├── StudentDemo.java
-│   ├── StudentManagement.java
-│   ├── Students.java
-│   └── ThisKeyword.java
-├── Day-09-Encapsulation/
-│   ├── BankAccount.java
-│   ├── BankAccountPractice.java
-│   ├── BankDemo.java
-│   ├── Employee.java
-│   ├── EmployeeDemo.java
-│   ├── EncapsulationBasic.java
-│   ├── Mobile.java
-│   ├── Person.java
-│   ├── Product.java
-│   ├── ProductDemo.java
-│   ├── README.md
-│   ├── SecureStudent.java
-│   ├── Student.java
-│   └── StudentDemo.java
-├── Day-10—Inheritance/
-│   ├── Animal.java
-│   ├── AnimalDemo.java
-│   ├── Car.java
-│   ├── Developer.java
-│   ├── Dog.java
-│   ├── Employee.java
-│   ├── EmployeeManagement.java
-│   ├── Main.java
-│   ├── Person.java
-│   ├── README.md
-│   ├── RectanglePractice.java
-│   ├── Student.java
-│   ├── StudentDemo.java
-│   ├── TeacherPractice.java
-│   ├── Vehicle.java
-│   └── VehicleDemo.java
-├── Day-11-Polymorphism/
-│   ├── AnimalArrayDemo.java
-│   ├── AnimalPoly.java
-│   ├── AreaOverloading.java
-│   ├── CalculatorOverloading.java
-│   ├── CardPayment.java
-│   ├── CatPoly.java
-│   ├── Circle.java
-│   ├── DogPoly.java
-│   ├── EmployeeSalaryDemo.java
-│   ├── NotificationDemo.java
-│   ├── Payment.java
-│   ├── PaymentDemo.java
-│   ├── PolymorphismDemo.java
-│   ├── README.md
-│   ├── RectangleShape.java
-│   ├── Shape.java
-│   ├── ShapeCalculator.java
-│   └── UPIPayment.java
-├── images/
-│   ├── banner.png
-│   └── roadmap.jpg
-├── README.md
-└── structure.txt
-
-13 directories, 160 files
-```
-<!-- STRUCTURE:END -->
