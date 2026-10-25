@@ -179,3 +179,165 @@ Java-Learning-Journey/
 *Built with ❤️ by Tejas*
 
 </div>
+
+## 📂 Repo Structure
+<!-- STRUCTURE:START -->
+```
+./
+├── Day-01-Basics/
+│   ├── BasicCalculation.java
+│   ├── Calculator.java
+│   ├── HelloWorld.java
+│   ├── MyIntroduction.java
+│   ├── PersonalProfile.java
+│   ├── README.md
+│   ├── StudentDetails.java
+│   └── Variables.java
+├── Day-02-Input-Operators/
+│   ├── ArithmeticOperators.java
+│   ├── Calculator.java
+│   ├── MarksCalculator.java
+│   ├── PersonalInfo.java
+│   ├── README.md
+│   ├── RectangleCalculator.java
+│   ├── SimpleInterest.java
+│   ├── StudentInput.java
+│   └── UserInput.java
+├── Day-03-Conditional-Statements/
+│   ├── AgeChecker.java
+│   ├── ElectricityBill.java
+│   ├── EvenOdd.java
+│   ├── GradeCalculator.java
+│   ├── IfElseExample.java
+│   ├── IfExample.java
+│   ├── LargestNumber.java
+│   ├── LargestOfThree.java
+│   ├── LoginChecker.java
+│   ├── NumberChecker.java
+│   ├── PracticeResult.java
+│   └── README.md
+├── Day-04-Loops/
+│   ├── BreakExample.java
+│   ├── ContinueExample.java
+│   ├── CountDigits.java
+│   ├── Countdown.java
+│   ├── DoWhileLoop.java
+│   ├── EvenNumbers.java
+│   ├── Factorial.java
+│   ├── Fibonacci.java
+│   ├── ForLoop.java
+│   ├── NumberAnalyzer.java
+│   ├── NumberTable.java
+│   ├── PracticeSum.java
+│   ├── PrimeNumber.java
+│   ├── README.md
+│   ├── ReverseNumber.java
+│   ├── StarPattern.java
+│   ├── SumOfNumbers.java
+│   └── WhileLoop.java
+├── Day-05-Arrays/
+│   ├── ArrayAnalyzer.java
+│   ├── ArrayAverage.java
+│   ├── ArrayBasics.java
+│   ├── ArrayInput.java
+│   ├── ArraySum.java
+│   ├── MatrixAddition.java.l
+│   ├── MaximumElement.java
+│   ├── MinimumElement.java
+│   ├── PracticeEvenArray.java
+│   ├── README.md
+│   ├── ReverseArray.java
+│   ├── SearchElement.java
+│   ├── SortArray.java
+│   └── TwoDimensionalArray.java
+├── Day-06-Strings/
+│   ├── CharacterAccess.java
+│   ├── CharacterCounter.java
+│   ├── CharacterFrequency.java
+│   ├── Palindrome.java
+│   ├── README.md
+│   ├── RemoveSpaces.java
+│   ├── ReverseString.java
+│   ├── StringAnalyzer.java
+│   ├── StringBasics.java
+│   ├── StringCase.java
+│   ├── StringComparison.java
+│   ├── StringLength.java
+│   ├── StringSearch.java
+│   ├── SubstringExample.java
+│   ├── VowelConsonant.java
+│   ├── VowelCounter.java
+│   └── WordCounter.java
+├── Day-07-Methods/
+│   ├── ArrayMethods.java
+│   ├── CalculatorMethods.java
+│   ├── EvenOddMethod.java
+│   ├── FactorialMethod.java
+│   ├── LargestMethod.java
+│   ├── MethodOverloading.java
+│   ├── ParameterMethod.java
+│   ├── PracticeMethods.java
+│   ├── README.md
+│   ├── ReturnMethod.java
+│   ├── SimpleMethod.java
+│   ├── StringMethods.java
+│   └── StudentResult.java
+├── Day-08-Classes-Objects/
+│   ├── BankAccount.java
+│   ├── BankDemo.java
+│   ├── Car.java
+│   ├── CarDemo.java
+│   ├── ConstructorExample.java
+│   ├── Employee.java
+│   ├── EmployeeDemo.java
+│   ├── MobileDemo.java
+│   ├── MobilePhone.java
+│   ├── README.md
+│   ├── Rectangle.java
+│   ├── RectangleDemo.java
+│   ├── Student.java
+│   ├── StudentDemo.java
+│   ├── StudentManagement.java
+│   ├── Students.java
+│   └── ThisKeyword.java
+├── Day-09-Encapsulation/
+│   ├── BankAccount.java
+│   ├── BankAccountPractice.java
+│   ├── BankDemo.java
+│   ├── Employee.java
+│   ├── EmployeeDemo.java
+│   ├── EncapsulationBasic.java
+│   ├── Mobile.java
+│   ├── Person.java
+│   ├── Product.java
+│   ├── ProductDemo.java
+│   ├── README.md
+│   ├── SecureStudent.java
+│   ├── Student.java
+│   └── StudentDemo.java
+├── Day-10—Inheritance/
+│   ├── Animal.java
+│   ├── AnimalDemo.java
+│   ├── Car.java
+│   ├── Developer.java
+│   ├── Dog.java
+│   ├── Employee.java
+│   ├── EmployeeManagement.java
+│   ├── Main.java
+│   ├── Person.java
+│   ├── README.md
+│   ├── RectanglePractice.java
+│   ├── Student.java
+│   ├── StudentDemo.java
+│   ├── TeacherPractice.java
+│   ├── Vehicle.java
+│   └── VehicleDemo.java
+├── images/
+│   ├── banner.png
+│   └── roadmap.jpg
+├── README.md
+└── structure.txt
+
+12 directories, 142 files
+```
+<!-- STRUCTURE:END -->
