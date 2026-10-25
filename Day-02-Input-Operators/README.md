@@ -1,67 +1,37 @@
-☕ Java Learning Journey — Day 2
+# ☕ Day 02 — Input & Operators
 
-Today I learned how to take user input in Java and perform operations using that input.
+## 🎯 Topics Covered
+- `Scanner` class for console input
+- Reading strings with `nextLine()`
+- Reading integers with `nextInt()`
+- Reading floating point numbers with `nextDouble()`
+- Arithmetic operators and precedence
+- Combining user input with mathematical calculations
 
-🎯 Topics Covered
+## 📂 Programs
+| File | Description |
+|:---|:---|
+| `UserInput.java` | Takes basic user information using Scanner |
+| `StudentInput.java` | Takes student details from console |
+| `ArithmeticOperators.java` | Demonstrates arithmetic operators |
+| `Calculator.java` | Creates a basic console calculator |
+| `PersonalInfo.java` | Practice: personal information input |
+| `RectangleCalculator.java` | Practice: area and perimeter calculation |
+| `SimpleInterest.java` | Practice: simple interest calculation |
+| `MarksCalculator.java` | Practice: marks and percentage calculator |
 
-- "Scanner" class
-- User input
-- "nextLine()"
-- "nextInt()"
-- "nextDouble()"
-- Arithmetic operators
-- Basic calculations
-- Combining input with calculations
+## 🧠 Key Learning
+I learned how Java programs can interact with users by accepting input through the `Scanner` class. I also practiced using arithmetic operators to process the received data and perform real calculations.
 
-📂 Programs
-
-File| Description
-"UserInput.java"| Takes basic user information
-"StudentInput.java"| Takes student details
-"ArithmeticOperators.java"| Demonstrates arithmetic operators
-"Calculator.java"| Creates a basic calculator
-"PersonalInfo.java"| Practice: personal information
-"RectangleCalculator.java"| Practice: area and perimeter
-"SimpleInterest.java"| Practice: simple interest
-"MarksCalculator.java"| Practice: marks and percentage
-
-📁 Folder Structure
-
-Day-02-Input-Operators/
-│
-├── README.md
-├── UserInput.java
-├── StudentInput.java
-├── ArithmeticOperators.java
-├── Calculator.java
-├── PersonalInfo.java
-├── RectangleCalculator.java
-├── SimpleInterest.java
-└── MarksCalculator.java
-
-🧠 Key Learning
-
-I learned how Java programs can interact with users by accepting input through the "Scanner" class. I also practiced using arithmetic operators to process the received data.
-
-🏆 Day 2 Status
-
-- [x] Scanner
+## 🏆 Status
+- [x] Scanner setup and import
 - [x] String input
 - [x] Integer input
 - [x] Double input
 - [x] Arithmetic operators
-- [x] Calculator
+- [x] Calculator implementation
 - [x] Practice problems
 - [x] GitHub documentation
 
-🚀 Next
-
-Day 3 — Conditional Statements
-
-I will learn "if", "else", "else if", comparison operators, and logical operators.
-
----
-
-Learning Process
-
-Learn → Code → Practice → Test → Commit → Push → Repeat 🚀
+## 🚀 Next
+[Day 03 — Conditional Statements](../Day-03-Conditional-Statements): Decision making using `if`, `else`, `else if`, comparison operators, and logical operators.

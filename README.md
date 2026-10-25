@@ -123,12 +123,34 @@ classDiagram
 
 ---
 
+## 📓 Notes
+
+> Short revision notes for every day, in the `Notes/` folder.
+
+<!-- NOTES:START -->
+| Day | Topic | Notes |
+|:---:|:---|:---|
+| **01** | Basics | [📓 Open notes](Notes/Day-01-Basics.md) |
+| **02** | Input Operators | [📓 Open notes](Notes/Day-02-Input-Operators.md) |
+| **03** | Conditional Statements | [📓 Open notes](Notes/Day-03-Conditional-Statements.md) |
+| **04** | Loops | [📓 Open notes](Notes/Day-04-Loops.md) |
+| **05** | Arrays | [📓 Open notes](Notes/Day-05-Arrays.md) |
+| **06** | Strings | [📓 Open notes](Notes/Day-06-Strings.md) |
+| **07** | Methods | [📓 Open notes](Notes/Day-07-Methods.md) |
+| **08** | Classes Objects | [📓 Open notes](Notes/Day-08-Classes-Objects.md) |
+| **09** | Encapsulation | [📓 Open notes](Notes/Day-09-Encapsulation.md) |
+| **10** | Inheritance | [📓 Open notes](Notes/Day-10-Inheritance.md) |
+| **11** | Polymorphism | [📓 Open notes](Notes/Day-11-Polymorphism.md) |
+<!-- NOTES:END -->
+
+---
+
 ## 🗂️ Repository Structure
 
 > 🤖 This section is auto-updated by a GitHub Action on every push.
 
 <!-- STRUCTURE:START -->
-**12 folders · 159 files** — tap a folder to expand 👇
+**14 folders · 171 files** — tap a folder to expand 👇
 
 <details>
 <summary>📁 <b>Day-01-Basics</b> — 8 files</summary>
@@ -353,10 +375,34 @@ classDiagram
 </details>
 
 <details>
+<summary>📁 <b>Notes</b> — 11 files</summary>
+
+- 📝 [Day-01-Basics.md](Notes/Day-01-Basics.md)
+- 📝 [Day-02-Input-Operators.md](Notes/Day-02-Input-Operators.md)
+- 📝 [Day-03-Conditional-Statements.md](Notes/Day-03-Conditional-Statements.md)
+- 📝 [Day-04-Loops.md](Notes/Day-04-Loops.md)
+- 📝 [Day-05-Arrays.md](Notes/Day-05-Arrays.md)
+- 📝 [Day-06-Strings.md](Notes/Day-06-Strings.md)
+- 📝 [Day-07-Methods.md](Notes/Day-07-Methods.md)
+- 📝 [Day-08-Classes-Objects.md](Notes/Day-08-Classes-Objects.md)
+- 📝 [Day-09-Encapsulation.md](Notes/Day-09-Encapsulation.md)
+- 📝 [Day-10-Inheritance.md](Notes/Day-10-Inheritance.md)
+- 📝 [Day-11-Polymorphism.md](Notes/Day-11-Polymorphism.md)
+
+</details>
+
+<details>
 <summary>📁 <b>images</b> — 2 files</summary>
 
 - 🖼️ [banner.png](images/banner.png)
 - 🖼️ [roadmap.jpg](images/roadmap.jpg)
+
+</details>
+
+<details>
+<summary>📁 <b>scripts</b> — 1 files</summary>
+
+- 🐍 [auto_update.py](scripts/auto_update.py)
 
 </details>
 
@@ -417,3 +463,5 @@ classDiagram
 *Built with ❤️ by Tejas*
 
 </div>
+
+

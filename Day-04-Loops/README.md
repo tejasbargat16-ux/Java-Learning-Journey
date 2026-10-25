@@ -1,97 +1,54 @@
-☕ Java Learning Journey — Day 4
+# ☕ Day 04 — Loops
 
-Today I learned how to use loops in Java to repeat operations efficiently.
-
-🎯 Topics Covered
-
-- "for" loop
-- "while" loop
-- "do-while" loop
-- Increment and decrement
-- "break"
-- "continue"
+## 🎯 Topics Covered
+- `for` loop
+- `while` loop
+- `do-while` loop
+- Increment and decrement operators (`++`, `--`)
+- Loop control: `break` and `continue`
 - Nested loops
-- Number-based problems
-- Pattern printing
+- Number-based mathematical problems
+- Pattern printing with stars
 
-📂 Programs
+## 📂 Programs
+| File | Description |
+|:---|:---|
+| `ForLoop.java` | Basic for loop demonstration |
+| `WhileLoop.java` | Basic while loop demonstration |
+| `DoWhileLoop.java` | Basic do-while loop demonstration |
+| `NumberTable.java` | Generates a multiplication table |
+| `SumOfNumbers.java` | Calculates sum of natural numbers |
+| `EvenNumbers.java` | Prints even numbers in a range |
+| `Countdown.java` | Creates a numeric countdown |
+| `BreakExample.java` | Demonstrates `break` statement |
+| `ContinueExample.java` | Demonstrates `continue` statement |
+| `StarPattern.java` | Prints star patterns using nested loops |
+| `Factorial.java` | Calculates factorial of a number |
+| `PracticeSum.java` | Calculates sum of even numbers |
+| `ReverseNumber.java` | Reverses an integer using modulo arithmetic |
+| `CountDigits.java` | Counts digits in an integer |
+| `PrimeNumber.java` | Checks whether a number is prime |
+| `Fibonacci.java` | Generates the Fibonacci series |
+| `NumberAnalyzer.java` | Comprehensive number analysis challenge |
 
-File| Description
-"ForLoop.java"| Basic for loop
-"WhileLoop.java"| Basic while loop
-"DoWhileLoop.java"| Basic do-while loop
-"NumberTable.java"| Generates a multiplication table
-"SumOfNumbers.java"| Calculates sum of numbers
-"EvenNumbers.java"| Prints even numbers
-"Countdown.java"| Creates a countdown
-"BreakExample.java"| Demonstrates "break"
-"ContinueExample.java"| Demonstrates "continue"
-"StarPattern.java"| Prints a star pattern
-"Factorial.java"| Calculates factorial
-"PracticeSum.java"| Calculates sum of even numbers
-"ReverseNumber.java"| Reverses a number
-"CountDigits.java"| Counts digits
-"PrimeNumber.java"| Checks whether a number is prime
-"Fibonacci.java"| Generates Fibonacci series
-"NumberAnalyzer.java"| Day 4 challenge
+## 🧠 Key Learning
+Loops allow a program to execute a block of code repeatedly without rewriting code.
+- `for` is best when the number of iterations is known in advance.
+- `while` is ideal when repetition depends on a dynamic condition.
+- `do-while` guarantees that the code block executes at least once before checking the condition.
+- `break` terminates loop execution immediately, while `continue` skips the rest of the current iteration.
+- Nested loops power 2D grid operations and pattern printing.
 
-📁 Folder Structure
-
-Day-04-Loops/
-│
-├── README.md
-├── ForLoop.java
-├── WhileLoop.java
-├── DoWhileLoop.java
-├── NumberTable.java
-├── SumOfNumbers.java
-├── EvenNumbers.java
-├── Countdown.java
-├── BreakExample.java
-├── ContinueExample.java
-├── StarPattern.java
-├── Factorial.java
-├── PracticeSum.java
-├── ReverseNumber.java
-├── CountDigits.java
-├── PrimeNumber.java
-├── Fibonacci.java
-└── NumberAnalyzer.java
-
-🧠 Key Learning
-
-Loops allow a program to execute a block of code repeatedly without writing the same code multiple times.
-
-I learned that:
-
-- "for" is useful when the number of iterations is known.
-- "while" is useful when repetition depends on a condition.
-- "do-while" executes the block at least once.
-- "break" terminates a loop.
-- "continue" skips the current iteration.
-- Nested loops can be used for patterns and multi-level operations.
-
-🏆 Day 4 Status
-
-- [x] "for" loop
-- [x] "while" loop
-- [x] "do-while" loop
-- [x] "break"
-- [x] "continue"
+## 🏆 Status
+- [x] `for` loop
+- [x] `while` loop
+- [x] `do-while` loop
+- [x] `break` and `continue`
 - [x] Nested loops
-- [x] Number problems
-- [x] Pattern program
+- [x] Number problems (Prime, Factorial, Reverse, Fibonacci)
+- [x] Pattern printing
 - [x] Practice problems
 - [x] GitHub documentation
 
-🚀 Next
-
-Day 5 — Arrays
-
-Next I will learn how to store and process multiple values using arrays.
-
----
-
-Learning Process
-
-Learn → Code → Practice → Test → Commit → Push → Repeat 🚀
+## 🚀 Next
+[Day 05 — Arrays](../Day-05-Arrays): Storing and processing collections of data using single and multidimensional arrays.

@@ -1,79 +1,43 @@
-☕ Java Learning Journey — Day 3
+# ☕ Day 03 — Conditional Statements
 
-Today I learned how to make Java programs make decisions using conditional statements.
+## 🎯 Topics Covered
+- `if` statement
+- `if-else` statement
+- `else if` ladder
+- Comparison operators (`==`, `!=`, `<`, `>`, `<=`, `>=`)
+- Logical operators (`&&`, `||`, `!`)
+- User input combined with conditionals
+- String comparison using `.equals()` instead of `==`
+- Decision-making programs and calculators
 
-🎯 Topics Covered
+## 📂 Programs
+| File | Description |
+|:---|:---|
+| `IfExample.java` | Basic `if` statement demonstration |
+| `IfElseExample.java` | Basic `if-else` statement demonstration |
+| `GradeCalculator.java` | Calculates student grade based on percentage |
+| `EvenOdd.java` | Checks whether a number is even or odd |
+| `LargestNumber.java` | Finds the largest of two numbers |
+| `AgeChecker.java` | Categorizes age into groups |
+| `LoginChecker.java` | Basic username and password validation |
+| `PracticeResult.java` | Checks pass or fail condition |
+| `NumberChecker.java` | Checks positive, negative or zero |
+| `LargestOfThree.java` | Finds the largest of three numbers |
+| `ElectricityBill.java` | Calculates electricity bill using tiered slab conditions |
 
-- "if"
-- "if-else"
-- "else if"
-- Comparison operators
-- Logical operators
-- User input with conditions
-- String comparison using ".equals()"
-- Basic decision-making programs
+## 🧠 Key Learning
+Conditional statements allow a Java program to make decisions based on whether a condition evaluates to true or false. I learned that `&&` represents logical AND, `||` represents logical OR, and `!` represents NOT. For comparing `String` values, always use `.equals()` instead of `==` to check value equality.
 
-📂 Programs
-
- File| Description
-"IfExample.java"| Basic "if" statement
-"IfElseExample.java"| Basic "if-else" statement
-"GradeCalculator.java"| Calculates grade based on percentage
-"EvenOdd.java"| Checks whether a number is even or odd
-"LargestNumber.java"| Finds the largest of two numbers
-"AgeChecker.java"| Categorizes age
-"LoginChecker.java"| Basic username and password validation
-"PracticeResult.java"| Checks pass or fail
-"NumberChecker.java"| Checks positive, negative or zero
-"LargestOfThree.java"| Finds the largest of three numbers
-"ElectricityBill.java"| Calculates electricity bill using conditions
-
-📁 Folder Structure
-
-Day-03-Conditional-Statements/
-
-│
-├── README.md
-├── IfExample.java
-├── IfElseExample.java
-├── GradeCalculator.java
-├── EvenOdd.java
-├── LargestNumber.java
-├── AgeChecker.java
-├── LoginChecker.java
-├── PracticeResult.java
-├── NumberChecker.java
-├── LargestOfThree.java
-└── ElectricityBill.java
-
-🧠 Key Learning
-
-Conditional statements allow a Java program to make decisions based on whether a condition is true or false.
-
-I also learned that "&&" represents AND, "||" represents OR, and "!" represents NOT.
-
-For comparing String values, I practiced using ".equals()" instead of "==".
-
-🏆 Day 3 Status
-
-- [x] "if"
-- [x] "if-else"
-- [x] "else if"
+## 🏆 Status
+- [x] `if` statement
+- [x] `if-else` statement
+- [x] `else if` ladder
 - [x] Comparison operators
-- [x] Logical operators
-- [x] User input with conditions
+- [x] Logical operators (`&&`, `||`, `!`)
+- [x] String comparison using `.equals()`
 - [x] Practice problems
 - [x] Decision-making programs
 - [x] GitHub documentation
 
-🚀 Next
-
-Day 4 — Loops
-
-Next I will learn "for", "while", and "do-while" loops and use them to repeat tasks efficiently.
-
----
-
-Learning Process
-
-Learn → Code → Practice → Test → Commit → Push → Repeat 🚀
+## 🚀 Next
+[Day 04 — Loops](../Day-04-Loops): Iteration using `for`, `while`, and `do-while` loops to repeat tasks efficiently.

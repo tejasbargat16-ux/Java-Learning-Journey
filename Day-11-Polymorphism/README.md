@@ -1,61 +1,47 @@
-Java Day 11 — Polymorphism
+# ☕ Day 11 — Polymorphism
 
-Topics Covered
+## 🎯 Topics Covered
+- The Polymorphism pillar of OOP (many forms)
+- Compile-time polymorphism (Method Overloading)
+- Runtime polymorphism (Method Overriding)
+- Dynamic Method Dispatch (runtime binding)
+- Upcasting and parent-class references to child objects
+- Polymorphic collections and arrays
+- Designing flexible APIs with base classes
 
-- Polymorphism in Java
-- Compile-time polymorphism
-- Method overloading
-- Runtime polymorphism
-- Method overriding
-- Dynamic method dispatch
-- Parent-class references
-- Polymorphism with arrays
+## 📂 Programs
+| File | Description |
+|:---|:---|
+| `CalculatorOverloading.java` | Method overloading with different parameter counts and types |
+| `AreaOverloading.java` | Overloaded area calculations for multiple geometric shapes |
+| `AnimalPoly.java` | Base Animal class defining polymorphic sound |
+| `DogPoly.java` | Subclass overriding sound for dogs |
+| `CatPoly.java` | Subclass overriding sound for cats |
+| `PolymorphismDemo.java` | Demonstrates runtime dynamic method dispatch |
+| `AnimalArrayDemo.java` | Polymorphic array storing different Animal subclasses |
+| `Payment.java` | Base Payment class defining generic pay contract |
+| `UPIPayment.java` | Subclass implementing UPI payment logic |
+| `CardPayment.java` | Subclass implementing Credit/Debit card logic |
+| `PaymentDemo.java` | Demonstrates polymorphic payment processing |
+| `Shape.java` | Base Shape class with polymorphic area method |
+| `Circle.java` | Subclass computing circle area |
+| `RectangleShape.java` | Subclass computing rectangle area |
+| `ShapeCalculator.java` | Polymorphic Shape calculator challenge |
+| `NotificationDemo.java` | Demonstrates polymorphic notification delivery |
+| `EmployeeSalaryDemo.java` | Demonstrates polymorphic salary computation |
 
-Programs
+## 🧠 Key Learning
+Polymorphism allows objects to be treated as instances of their parent class while executing child-specific behaviors at runtime. Compile-time polymorphism is achieved through method overloading, while runtime polymorphism is achieved through method overriding and dynamic method dispatch, where the JVM determines the target method based on the actual object on the heap.
 
-File| Concept
-CalculatorOverloading.java| Method overloading
-AnimalPoly.java| Parent class
-DogPoly.java| Method overriding
-CatPoly.java| Method overriding
-PolymorphismDemo.java| Runtime polymorphism
-Payment.java| Common payment method
-UPIPayment.java| UPI implementation
-CardPayment.java| Card implementation
-PaymentDemo.java| Payment example
-AnimalArrayDemo.java| Polymorphism with arrays
-Shape.java| Shape parent class
-Circle.java| Circle area
-RectangleShape.java| Rectangle area
-ShapeCalculator.java| Shape calculator mini-project
-AreaOverloading.java| Overloaded area methods
-NotificationDemo.java| Notification example
-EmployeeSalaryDemo.java| Employee salary example
+## 🏆 Status
+- [x] Compile-time polymorphism (Method Overloading)
+- [x] Runtime polymorphism (Method Overriding)
+- [x] Dynamic Method Dispatch
+- [x] Parent references pointing to child objects
+- [x] Polymorphism with arrays
+- [x] Payment system implementation
+- [x] Shape Calculator mini-project
+- [x] GitHub documentation
 
-Key Concepts
-
-Compile-Time Polymorphism
-
-Method overloading allows methods to share a name while having different parameter lists.
-
-Runtime Polymorphism
-
-Method overriding allows a child class to provide its own implementation of an inherited method.
-
-Learning Outcome
-
-After Day 11, I can:
-
-- Explain both types of polymorphism
-- Create overloaded methods
-- Override parent-class methods
-- Use parent references for child objects
-- Apply polymorphism to practical Java examples
-
-Mini-Project
-
-The Shape Calculator calculates areas using a common "Shape" reference and different implementations for circles and rectangles.
-
-Next Topic
-
-Day 12 — Abstraction
+## 🚀 Next
+Day 12 — Abstraction: Deep dive into abstract classes, abstract methods, and interfaces.

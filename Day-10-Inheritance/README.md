@@ -1,58 +1,45 @@
-Java Day 10 — Inheritance
+# ☕ Day 10 — Inheritance
 
-Topics Covered
+## 🎯 Topics Covered
+- The Inheritance pillar of OOP
+- Parent (superclass) and Child (subclass) relationships
+- The `extends` keyword
+- The `super` keyword for parent methods and constructors
+- Constructor chaining across inheritance hierarchies
+- Method overriding and the `@Override` annotation
+- Code reuse and hierarchical domain modeling
+- Multilevel and hierarchical inheritance patterns
 
-- Inheritance
-- Parent and child classes
-- "extends" keyword
-- "super" keyword
-- Constructor chaining
-- Method overriding
-- "@Override" annotation
-- Code reuse through inheritance
+## 📂 Programs
+| File | Description |
+|:---|:---|
+| `Animal.java` | Superclass defining generic animal behaviors |
+| `Dog.java` | Subclass inheriting from Animal |
+| `AnimalDemo.java` | Demonstrates basic inheritance and method reuse |
+| `Person.java` | Parent class with parameterized constructor |
+| `Student.java` | Subclass calling `super()` and `super.display()` |
+| `StudentDemo.java` | Demonstrates student inheritance and constructor chaining |
+| `TeacherPractice.java` | Practice: Teacher inheriting from Person with subject specializations |
+| `Vehicle.java` | Superclass with generic vehicle operations |
+| `Car.java` | Subclass overriding parent methods with `@Override` |
+| `VehicleDemo.java` | Demonstrates method overriding in action |
+| `Main.java` | Practice: VehiclePractice and BikePractice subclassing |
+| `RectanglePractice.java` | Practice: Rectangle overriding Shape area method |
+| `Employee.java` | Superclass for workplace personnel |
+| `Developer.java` | Subclass extending Employee with specialized roles |
+| `EmployeeManagement.java` | Comprehensive inheritance mini-project |
 
-Programs
+## 🧠 Key Learning
+Inheritance allows a child class to inherit fields and methods from a parent class, eliminating duplicated code. A child class extends a parent with `extends`, calls parent constructors with `super()`, and can override inherited methods using `@Override` to provide specialized behavior.
 
-File| Concept
-Animal.java| Parent class
-Dog.java| Child class
-AnimalDemo.java| Basic inheritance
-Person.java| Parent constructor
-Student.java| "super()" and "super.method()"
-StudentDemo.java| Student inheritance
-Vehicle.java| Parent method
-Car.java| Method overriding
-VehicleDemo.java| Overriding demonstration
-Employee.java| Employee parent class
-Developer.java| Developer child class
-EmployeeManagement.java| Inheritance mini-project
+## 🏆 Status
+- [x] Inheritance fundamentals & `extends`
+- [x] Superclass & subclass hierarchy
+- [x] `super` keyword & constructor chaining
+- [x] Method overriding with `@Override`
+- [x] Hierarchical inheritance (Vehicle, Animal, Person)
+- [x] Employee Management mini-project
+- [x] GitHub documentation
 
-Key Concepts
-
-Inheritance
-
-Inheritance allows a child class to reuse fields and methods of a parent class.
-
-Syntax
-
-class Child extends Parent {
-}
-
-Method Overriding
-
-A child class provides its own implementation of an inherited method.
-
-Learning Outcome
-
-After Day 10, I can:
-
-- Create parent and child classes
-- Reuse methods through inheritance
-- Call parent constructors using "super()"
-- Call parent methods using "super.method()"
-- Override inherited methods
-- Build a basic employee management example
-
-Next Topic
-
-Day 11 — Polymorphism
+## 🚀 Next
+[Day 11 — Polymorphism](../Day-11-Polymorphism): Mastering compile-time overloading, runtime dynamic dispatch, and polymorphism with arrays and interfaces.

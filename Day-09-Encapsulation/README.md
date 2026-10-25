@@ -1,70 +1,44 @@
-Java Day 9 — Encapsulation 🔐
+# ☕ Day 09 — Encapsulation
 
-📚 Topics Covered
+## 🎯 Topics Covered
+- The Encapsulation pillar of OOP
+- Access modifiers: `private`, `public`
+- Data hiding and variable protection
+- Getter methods for controlled read access
+- Setter methods for controlled write access
+- Input validation inside setters
+- Constructors with encapsulated fields
+- Building robust, fault-tolerant domain models
 
-- Encapsulation
-- "private" keyword
-- Getters
-- Setters
-- Data validation
-- Constructors with encapsulated data
-- Controlled access to object data
-- Real-world encapsulation examples
+## 📂 Programs
+| File | Description |
+|:---|:---|
+| `EncapsulationBasic.java` | Basic demonstration of private fields and getters/setters |
+| `Student.java` | Encapsulated Student class with validation |
+| `StudentDemo.java` | Demonstrates controlled access to Student data |
+| `SecureStudent.java` | Mini-project: Student object with strict validation |
+| `BankAccount.java` | Bank account class with balance protection |
+| `BankDemo.java` | Tests bank deposits and withdrawals with validation |
+| `BankAccountPractice.java` | Practice: BankAccount with robust validation rules |
+| `Person.java` | Person class with age validation rules |
+| `Employee.java` | Encapsulated Employee class with salary rules |
+| `EmployeeDemo.java` | Tests Employee getter and setter behavior |
+| `Product.java` | Product class validating non-negative prices |
+| `ProductDemo.java` | Demonstrates Product inventory operations |
+| `Mobile.java` | Encapsulated Mobile model with price validation |
 
-📂 Programs
+## 🧠 Key Learning
+Encapsulation means bundling data and methods inside a class while hiding internal implementation details from direct outside modification. By making instance variables `private` and exposing `public` getters and setters, classes can validate input data, maintain invariants, and prevent corrupt states.
 
-File| Concept
-EncapsulationBasic.java| Basic encapsulation
-Student.java| Getters and setters
-StudentDemo.java| Student object
-BankAccount.java| Account data protection
-BankDemo.java| Bank account operations
-Employee.java| Employee encapsulation
-EmployeeDemo.java| Employee object
-Product.java| Product data validation
-ProductDemo.java| Product operations
-SecureStudent.java| Encapsulation mini-project
+## 🏆 Status
+- [x] Encapsulation concept & data hiding
+- [x] `private` access modifier
+- [x] Public getters & setters
+- [x] Data validation inside setters
+- [x] Balance protection (BankAccount)
+- [x] Product price validation
+- [x] Secure Student mini-project
+- [x] GitHub documentation
 
-🔑 Key Concept
-
-Encapsulation means protecting an object's internal data and providing controlled access to it.
-
-Example:
-
-private double balance;
-
-public double getBalance() {
-    return balance;
-}
-
-public void deposit(double amount) {
-    if (amount > 0) {
-        balance += amount;
-    }
-}
-
-🎯 Learning Outcome
-
-After Day 9, I understand how to:
-
-- Make class fields private
-- Create getters and setters
-- Validate data before storing it
-- Protect object data
-- Build safer Java classes
-- Apply encapsulation to real-world examples
-
-🧪 Mini Project
-
-The "SecureStudent.java" program demonstrates a student object with:
-
-- Private fields
-- Validation
-- Setters
-- Getters
-- User input
-- Display methods
-
-🚀 Next Step
-
-Day 10 — Inheritance
+## 🚀 Next
+[Day 10 — Inheritance](../Day-10-Inheritance): Code reuse and hierarchy modeling using `extends`, `super`, constructor chaining, and method overriding.

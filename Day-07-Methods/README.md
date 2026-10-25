@@ -1,84 +1,46 @@
-☕ Java Learning Journey — Day 7
+# ☕ Day 07 — Methods
 
-Today I learned about methods in Java and how to organize code into reusable blocks.
+## 🎯 Topics Covered
+- Creating and defining methods
+- Calling methods from `main()`
+- Method parameters and arguments
+- Return types and the `return` statement
+- `void` methods vs value-returning methods
+- Passing strings and arrays to methods
+- Boolean-returning validation methods
+- Method overloading (same name, different parameters)
+- Designing modular, reusable program logic
 
-🎯 Topics Covered
+## 📂 Programs
+| File | Description |
+|:---|:---|
+| `SimpleMethod.java` | Basic method declaration and invocation |
+| `ParameterMethod.java` | Passing arguments to method parameters |
+| `ReturnMethod.java` | Returning values from a method |
+| `CalculatorMethods.java` | Modular calculator with individual operation methods |
+| `StringMethods.java` | Text manipulation through dedicated methods |
+| `ArrayMethods.java` | Array traversal and processing using methods |
+| `EvenOddMethod.java` | Checks even or odd via a boolean method |
+| `FactorialMethod.java` | Computes factorial using a method |
+| `MethodOverloading.java` | Demonstrates compile-time method overloading |
+| `PracticeMethods.java` | Practice: square and power calculations |
+| `LargestMethod.java` | Finds the maximum of three numbers using methods |
+| `StudentResult.java` | Complete student result evaluation system |
 
-- Creating methods
-- Calling methods
-- Parameters
-- Return values
-- "void" methods
-- Methods with Strings
-- Methods with arrays
-- Boolean-returning methods
-- Method overloading
-- Building reusable logic
+## 🧠 Key Learning
+Methods enable breaking complex programs into smaller, reusable, and testable modules. Parameters pass input data into methods, and the `return` keyword sends results back to the caller. Method overloading allows multiple methods to share the same name as long as their parameter lists (count, types, or order) differ.
 
-📂 Programs
-
-File| Description
-"SimpleMethod.java"| Basic method creation and calling
-"ParameterMethod.java"| Method with parameters
-"ReturnMethod.java"| Method with a return value
-"CalculatorMethods.java"| Calculator using separate methods
-"StringMethods.java"| String operations using methods
-"ArrayMethods.java"| Array processing using methods
-"EvenOddMethod.java"| Checks even or odd using a method
-"FactorialMethod.java"| Calculates factorial using a method
-"MethodOverloading.java"| Demonstrates method overloading
-"PracticeMethods.java"| Practice: square calculation
-"LargestMethod.java"| Finds largest of three numbers
-"StudentResult.java"| Complete student result system
-
-📁 Folder Structure
-
-Day-07-Methods/
-│
-├── README.md
-├── SimpleMethod.java
-├── ParameterMethod.java
-├── ReturnMethod.java
-├── CalculatorMethods.java
-├── StringMethods.java
-├── ArrayMethods.java
-├── EvenOddMethod.java
-├── FactorialMethod.java
-├── MethodOverloading.java
-├── PracticeMethods.java
-├── LargestMethod.java
-└── StudentResult.java
-
-🧠 Key Learning
-
-Methods allow Java programs to divide large problems into smaller, reusable blocks of code.
-
-I learned how to pass data using parameters and receive results using return values.
-
-I also learned method overloading, where multiple methods can have the same name but different parameter lists.
-
-🏆 Day 7 Status
-
-- [x] Basic methods
-- [x] Parameters
-- [x] Return values
-- [x] "void"
-- [x] String methods
-- [x] Array methods
-- [x] Boolean methods
+## 🏆 Status
+- [x] Method definition & calling
+- [x] Parameters & arguments
+- [x] Return types & `void`
+- [x] String processing methods
+- [x] Array processing methods
+- [x] Boolean validation methods
 - [x] Method overloading
 - [x] Practice programs
 - [x] Student Result project
 - [x] GitHub documentation
 
-🚀 Next
-
-Day 8 — Object-Oriented Programming: Classes & Objects
-
-Next I will start learning the core of Java OOP using classes, objects, fields, constructors, and instance methods.
-
----
-
-Learning Process
-
-Learn → Code → Practice → Test → Commit → Push → Repeat 🚀
+## 🚀 Next
+[Day 08 — Classes & Objects](../Day-08-Classes-Objects): Entering Object-Oriented Programming (OOP) with classes, objects, fields, constructors, and the `this` keyword.

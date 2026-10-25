@@ -1,91 +1,49 @@
-☕ Java Learning Journey — Day 5
+# ☕ Day 05 — Arrays
 
-Today I learned about arrays and how to store and process multiple values using a single data structure.
-
-🎯 Topics Covered
-
-- Array declaration
-- Array initialization
-- Array indexing
-- Array length
-- User input with arrays
+## 🎯 Topics Covered
+- Array declaration and initialization
+- Array indexing and length property (`array.length`)
+- User input with arrays via `Scanner`
 - Traversing arrays using loops
-- Sum and average
-- Maximum and minimum
-- Searching
-- Reversing arrays
-- Bubble Sort
-- Two-dimensional arrays
-- Matrix addition
+- Finding sum and average of elements
+- Finding maximum and minimum elements
+- Linear search in an array
+- Reversing an array
+- Bubble Sort algorithm
+- Two-dimensional arrays and matrix addition
 
-📂 Programs
+## 📂 Programs
+| File | Description |
+|:---|:---|
+| `ArrayBasics.java` | Introduction to array declaration and initialization |
+| `ArrayInput.java` | Takes array values dynamically from the user |
+| `ArraySum.java` | Calculates sum of array elements |
+| `ArrayAverage.java` | Calculates average of array elements |
+| `MaximumElement.java` | Finds the maximum element in an array |
+| `MinimumElement.java` | Finds the minimum element in an array |
+| `SearchElement.java` | Searches for a specific element (Linear Search) |
+| `ReverseArray.java` | Displays array elements in reverse order |
+| `SortArray.java` | Sorts an array using the Bubble Sort algorithm |
+| `TwoDimensionalArray.java` | Demonstrates 2D array representation |
+| `MatrixAddition.java` | Performs matrix addition on 2D arrays |
+| `PracticeEvenArray.java` | Filters and displays even numbers from an array |
+| `ArrayAnalyzer.java` | Complete statistical analysis on array data |
 
-File| Description
-"ArrayBasics.java"| Introduction to arrays
-"ArrayInput.java"| Takes array values from the user
-"ArraySum.java"| Calculates array sum
-"ArrayAverage.java"| Calculates array average
-"MaximumElement.java"| Finds maximum element
-"MinimumElement.java"| Finds minimum element
-"SearchElement.java"| Searches for an element
-"ReverseArray.java"| Displays array in reverse
-"SortArray.java"| Sorts an array using Bubble Sort
-"TwoDimensionalArray.java"| Demonstrates 2D arrays
-"MatrixAddition.java"| Adds two matrices
-"PracticeEvenArray.java"| Finds even numbers
-"ArrayAnalyzer.java"| Complete array analysis
+## 🧠 Key Learning
+An array allows multiple values of the same data type to be stored under one variable name in contiguous memory. Array indexing starts from `0` and ends at `length - 1`. Loops are essential to traverse and process elements. I practiced linear search, sorting via Bubble Sort, array reversal, and 2D matrix operations.
 
-📁 Folder Structure
-
-Day-05-Arrays/
-│
-├── README.md
-├── ArrayBasics.java
-├── ArrayInput.java
-├── ArraySum.java
-├── ArrayAverage.java
-├── MaximumElement.java
-├── MinimumElement.java
-├── SearchElement.java
-├── ReverseArray.java
-├── SortArray.java
-├── TwoDimensionalArray.java
-├── MatrixAddition.java
-├── PracticeEvenArray.java
-└── ArrayAnalyzer.java
-
-🧠 Key Learning
-
-An array allows multiple values of the same data type to be stored under one variable.
-
-I learned that array indexing starts from "0" and that loops can be used to efficiently traverse and process array elements.
-
-I also practiced searching, sorting, reversing, and analyzing arrays.
-
-🏆 Day 5 Status
-
-- [x] Array basics
-- [x] Array indexing
-- [x] User input
-- [x] Array traversal
-- [x] Sum and average
-- [x] Maximum and minimum
-- [x] Searching
-- [x] Reversing
-- [x] Bubble Sort
-- [x] 2D arrays
-- [x] Matrix addition
-- [x] Practice problems
+## 🏆 Status
+- [x] Array declaration and indexing
+- [x] User input with arrays
+- [x] Array traversal using loops
+- [x] Sum and average calculation
+- [x] Maximum and minimum element search
+- [x] Element search (Linear Search)
+- [x] Array reversal
+- [x] Bubble Sort implementation
+- [x] 2D arrays & matrix addition
+- [x] Array Analyzer challenge
 - [x] GitHub documentation
 
-🚀 Next
-
-Day 6 — Strings
-
-Next I will learn how to work with text using Java "String" objects and perform operations such as searching, comparing, reversing, and manipulating strings.
-
----
-
-Learning Process
-
-Learn → Code → Practice → Test → Commit → Push → Repeat 🚀
+## 🚀 Next
+[Day 06 — Strings](../Day-06-Strings): Working with text, string immutability, built-in methods, and text manipulation algorithms.
