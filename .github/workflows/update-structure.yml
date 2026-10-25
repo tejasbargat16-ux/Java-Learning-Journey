@@ -1,0 +1,44 @@
+name: Update Repo Structure
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tree
+        run: sudo apt-get update && sudo apt-get install -y tree
+
+      - name: Generate structure into README
+        run: |
+          tree -I '.git|.github|node_modules|*.class|out|bin' --dirsfirst -F > structure.txt
+          touch README.md
+          if ! grep -q "<!-- STRUCTURE:START -->" README.md; then
+            printf '\n## 📂 Repo Structure\n<!-- STRUCTURE:START -->\n<!-- STRUCTURE:END -->\n' >> README.md
+          fi
+          python3 - <<'EOF'
+          import re
+          s = open('structure.txt').read()
+          r = open('README.md').read()
+          block = "<!-- STRUCTURE:START -->\n```\n" + s + "```\n<!-- STRUCTURE:END -->"
+          r = re.sub(r"<!-- STRUCTURE:START -->.*?<!-- STRUCTURE:END -->", lambda m: block, r, flags=re.S)
+          open('README.md', 'w').write(r)
+          EOF
+          rm structure.txt
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (git commit -m "docs: update repo structure [skip ci]" && git push)
