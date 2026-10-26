@@ -5,7 +5,7 @@
 # ☕ Java Learning Journey
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2011%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
+[![Progress](https://img.shields.io/badge/Progress-Day%2012%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
 [![Learning-Pace](https://img.shields.io/badge/Daily%20Practice-Consistent-3b82f6?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
 [![Built-By](https://img.shields.io/badge/Built%20By-Tejas-f97316?style=for-the-badge)](https://github.com/tejasbargat16-ux)
 
@@ -141,6 +141,7 @@ classDiagram
 | **09** | Encapsulation | [📓 Open notes](Notes/Day-09-Encapsulation.md) |
 | **10** | Inheritance | [📓 Open notes](Notes/Day-10-Inheritance.md) |
 | **11** | Polymorphism | [📓 Open notes](Notes/Day-11-Polymorphism.md) |
+| **12** | Abstraction | [📓 Open notes](Notes/Day-12-Abstraction.md) |
 <!-- NOTES:END -->
 
 ---
@@ -150,7 +151,7 @@ classDiagram
 > 🤖 This section is auto-updated by a GitHub Action on every push.
 
 <!-- STRUCTURE:START -->
-**14 folders · 171 files** — tap a folder to expand 👇
+**15 folders · 190 files** — tap a folder to expand 👇
 
 <details>
 <summary>📁 <b>Day-01-Basics</b> — 8 files</summary>
@@ -375,7 +376,31 @@ classDiagram
 </details>
 
 <details>
-<summary>📁 <b>Notes</b> — 11 files</summary>
+<summary>📁 <b>Day-12-Abstraction</b> — 18 files</summary>
+
+- ☕ [Animal.java](Day-12-Abstraction/Animal.java)
+- ☕ [AnimalDemo.java](Day-12-Abstraction/AnimalDemo.java)
+- ☕ [CardPayment.java](Day-12-Abstraction/CardPayment.java)
+- ☕ [Circle.java](Day-12-Abstraction/Circle.java)
+- ☕ [Dog.java](Day-12-Abstraction/Dog.java)
+- ☕ [Guitar.java](Day-12-Abstraction/Guitar.java)
+- ☕ [InterfaceDemo.java](Day-12-Abstraction/InterfaceDemo.java)
+- ☕ [PaymentMethod.java](Day-12-Abstraction/PaymentMethod.java)
+- ☕ [PaymentSystemDemo.java](Day-12-Abstraction/PaymentSystemDemo.java)
+- ☕ [PayrollDemo.java](Day-12-Abstraction/PayrollDemo.java)
+- ☕ [Piano.java](Day-12-Abstraction/Piano.java)
+- ☕ [Playable.java](Day-12-Abstraction/Playable.java)
+- ☕ [PrintableDemo.java](Day-12-Abstraction/PrintableDemo.java)
+- 📝 [README.md](Day-12-Abstraction/README.md)
+- ☕ [Shape.java](Day-12-Abstraction/Shape.java)
+- ☕ [ShapeDemo.java](Day-12-Abstraction/ShapeDemo.java)
+- ☕ [UPIPayment.java](Day-12-Abstraction/UPIPayment.java)
+- ☕ [VehicleAbstractionDemo.java](Day-12-Abstraction/VehicleAbstractionDemo.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Notes</b> — 12 files</summary>
 
 - 📝 [Day-01-Basics.md](Notes/Day-01-Basics.md)
 - 📝 [Day-02-Input-Operators.md](Notes/Day-02-Input-Operators.md)
@@ -388,6 +413,7 @@ classDiagram
 - 📝 [Day-09-Encapsulation.md](Notes/Day-09-Encapsulation.md)
 - 📝 [Day-10-Inheritance.md](Notes/Day-10-Inheritance.md)
 - 📝 [Day-11-Polymorphism.md](Notes/Day-11-Polymorphism.md)
+- 📝 [Day-12-Abstraction.md](Notes/Day-12-Abstraction.md)
 
 </details>
 
@@ -453,7 +479,7 @@ classDiagram
 
 ## 📈 Current Progress
 
-- **Completed:** Day 11 of 60 days
+- **Completed:** Day 12 of 60 days
 - **Status:** In Progress 🚀
 - **Started:** September 2026
 
