@@ -5,7 +5,7 @@
 # ☕ Java Learning Journey
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2012%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
+[![Progress](https://img.shields.io/badge/Progress-Day%2013%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
 [![Learning-Pace](https://img.shields.io/badge/Daily%20Practice-Consistent-3b82f6?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
 [![Built-By](https://img.shields.io/badge/Built%20By-Tejas-f97316?style=for-the-badge)](https://github.com/tejasbargat16-ux)
 
@@ -142,6 +142,7 @@ classDiagram
 | **10** | Inheritance | [📓 Open notes](Notes/Day-10-Inheritance.md) |
 | **11** | Polymorphism | [📓 Open notes](Notes/Day-11-Polymorphism.md) |
 | **12** | Abstraction | [📓 Open notes](Notes/Day-12-Abstraction.md) |
+| **13** | Exception Handling | [📓 Open notes](Notes/Day-13-Exception-Handling.md) |
 <!-- NOTES:END -->
 
 ---
@@ -151,7 +152,7 @@ classDiagram
 > 🤖 This section is auto-updated by a GitHub Action on every push.
 
 <!-- STRUCTURE:START -->
-**15 folders · 190 files** — tap a folder to expand 👇
+**16 folders · 204 files** — tap a folder to expand 👇
 
 <details>
 <summary>📁 <b>Day-01-Basics</b> — 8 files</summary>
@@ -400,7 +401,26 @@ classDiagram
 </details>
 
 <details>
-<summary>📁 <b>Notes</b> — 12 files</summary>
+<summary>📁 <b>Day-13-Exception-Handling</b> — 13 files</summary>
+
+- ☕ [AgeValidation.java](Day-13-Exception-Handling/AgeValidation.java)
+- ☕ [BankAccount.java](Day-13-Exception-Handling/BankAccount.java)
+- ☕ [BankingSimulator.java](Day-13-Exception-Handling/BankingSimulator.java)
+- ☕ [FileReadingPractice.java](Day-13-Exception-Handling/FileReadingPractice.java)
+- ☕ [FinallyExample.java](Day-13-Exception-Handling/FinallyExample.java)
+- ☕ [InvalidAmountException.java](Day-13-Exception-Handling/InvalidAmountException.java)
+- ☕ [MultipleCatch.java](Day-13-Exception-Handling/MultipleCatch.java)
+- 📝 [README.md](Day-13-Exception-Handling/README.md)
+- ☕ [SafeDivision.java](Day-13-Exception-Handling/SafeDivision.java)
+- ☕ [SafeInput.java](Day-13-Exception-Handling/SafeInput.java)
+- ☕ [ThrowExample.java](Day-13-Exception-Handling/ThrowExample.java)
+- ☕ [ThrowsExample.java](Day-13-Exception-Handling/ThrowsExample.java)
+- ☕ [TryCatchExample.java](Day-13-Exception-Handling/TryCatchExample.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Notes</b> — 13 files</summary>
 
 - 📝 [Day-01-Basics.md](Notes/Day-01-Basics.md)
 - 📝 [Day-02-Input-Operators.md](Notes/Day-02-Input-Operators.md)
@@ -414,6 +434,7 @@ classDiagram
 - 📝 [Day-10-Inheritance.md](Notes/Day-10-Inheritance.md)
 - 📝 [Day-11-Polymorphism.md](Notes/Day-11-Polymorphism.md)
 - 📝 [Day-12-Abstraction.md](Notes/Day-12-Abstraction.md)
+- 📝 [Day-13-Exception-Handling.md](Notes/Day-13-Exception-Handling.md)
 
 </details>
 
@@ -479,7 +500,7 @@ classDiagram
 
 ## 📈 Current Progress
 
-- **Completed:** Day 12 of 60 days
+- **Completed:** Day 13 of 60 days
 - **Status:** In Progress 🚀
 - **Started:** September 2026
 
