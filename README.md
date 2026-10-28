@@ -152,7 +152,7 @@ classDiagram
 > 🤖 This section is auto-updated by a GitHub Action on every push.
 
 <!-- STRUCTURE:START -->
-**16 folders · 204 files** — tap a folder to expand 👇
+**16 folders · 205 files** — tap a folder to expand 👇
 
 <details>
 <summary>📁 <b>Day-01-Basics</b> — 8 files</summary>
@@ -401,10 +401,11 @@ classDiagram
 </details>
 
 <details>
-<summary>📁 <b>Day-13-Exception-Handling</b> — 13 files</summary>
+<summary>📁 <b>Day-13-Exception-Handling</b> — 14 files</summary>
 
 - ☕ [AgeValidation.java](Day-13-Exception-Handling/AgeValidation.java)
 - ☕ [BankAccount.java](Day-13-Exception-Handling/BankAccount.java)
+- ☕ [BankingChallenge.java](Day-13-Exception-Handling/BankingChallenge.java)
 - ☕ [BankingSimulator.java](Day-13-Exception-Handling/BankingSimulator.java)
 - ☕ [FileReadingPractice.java](Day-13-Exception-Handling/FileReadingPractice.java)
 - ☕ [FinallyExample.java](Day-13-Exception-Handling/FinallyExample.java)
