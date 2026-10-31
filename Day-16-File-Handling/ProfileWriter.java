@@ -1,26 +1,30 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
-public class ProfileReader {
+public class ProfileWriter {
 
     public static void main(String[] args) {
 
-        try (BufferedReader reader =
-                     new BufferedReader(
-                             new FileReader("MyProfile.txt"))) {
+        Path path = Path.of("MyProfile.txt");
 
-            String line;
+        String profile =
+                "Name: Tejas\n" +
+                "Branch: ECE\n" +
+                "Skills: Java, Python, C++\n" +
+                "Goal: Become a Software Developer";
 
-            while ((line = reader.readLine()) != null) {
-                System.out.println(line);
-            }
+        try {
+
+            Files.writeString(path, profile);
+
+            System.out.println(
+                    "Profile saved successfully."
+            );
 
         } catch (IOException e) {
 
-            System.out.println(
-                    "Unable to read profile: " + e.getMessage()
-            );
+            System.out.println(e.getMessage());
         }
     }
 }
