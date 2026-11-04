@@ -74,36 +74,52 @@ def note_path(folder):
 
 # --------------------------------------------------------- README parsing
 def readme_topics(folder):
-    """Bullets under 'Topics Covered' in the day's README."""
+    """Bullets or table entries under 'Topics Covered' in the day's README."""
     p = os.path.join(folder, "README.md")
     if not os.path.exists(p):
         return []
     lines = read(p).splitlines()
-    topics, on = [], False
-    for ln in lines:
-        s = ln.strip()
-        if not on:
-            if "topics covered" in s.lower():
-                on = True
-            continue
-        if s.startswith("- "):
-            topics.append(s[2:].replace('"', "").replace("`", "").strip())
-        elif s and topics:
-            break
-    return topics
+
+    def extract_under(keyword):
+        topics, on = [], False
+        for ln in lines:
+            s = ln.strip()
+            if not on:
+                if keyword in s.lower():
+                    on = True
+                continue
+            if s.startswith("## ") and on:
+                break
+            if s.startswith("- "):
+                topics.append(s[2:].replace('"', "").replace("`", "").strip())
+            elif s.startswith("|") and not s.startswith("|---") and "topic" not in s.lower() and "file" not in s.lower():
+                cols = [c.strip().strip('"`* ') for c in s.split("|") if c.strip()]
+                if cols:
+                    topics.append(cols[0])
+        return topics
+
+    found = extract_under("topics covered")
+    return found if found else extract_under("learning objectives")
 
 
 def readme_descriptions(folder):
-    """filename -> description, from 'File| Description' style lines."""
+    """filename -> description, from table or 'File| Description' style lines."""
     p = os.path.join(folder, "README.md")
     desc = {}
     if not os.path.exists(p):
         return desc
     for ln in read(p).splitlines():
-        if "|" in ln and ".java" in ln:
-            a, _, b = ln.partition("|")
-            name = a.strip().strip('"`* ')
-            desc[name] = b.strip().strip("| ").replace('"', "`") if b.strip() else ""
+        if ".java" in ln:
+            if "|" in ln:
+                cols = [c.strip().strip('"`* ') for c in ln.split("|") if c.strip()]
+                for i, col in enumerate(cols):
+                    if col.endswith(".java") and i + 1 < len(cols):
+                        desc[col] = cols[i + 1].replace('"', "`")
+                        break
+            elif "-" in ln or ":" in ln:
+                m = re.search(r"(\w+\.java)\s*[-:]\s*(.+)", ln)
+                if m:
+                    desc[m.group(1)] = m.group(2).strip().replace('"', "`")
     return desc
 
 
@@ -324,17 +340,35 @@ def update_progress(text, latest):
     return text
 
 
-def add_topic_row(text, num, folder, topic):
-    if re.search(rf"\|\s*\*\*{num:02d}\*\*\s*\|", text):
+def update_topics_table(text, days):
+    """Ensure all days are present in the '## 📚 Topics Covered' table."""
+    m = re.search(r"(## 📚 Topics Covered\s*\n\s*\|[^\n]+\|\s*\n\s*\|[-:| ]+\|\s*\n)(.*?)(?=\n\s*(?:---|## ))", text, re.S)
+    if not m:
         return text
-    topics = readme_topics(folder)
-    highlights = ", ".join(topics[:4]) if topics else "—"
-    row = f"| **{num:02d}** | [{topic}]({quote(folder)}) | {highlights} | ✅ Completed |"
-    rows = list(re.finditer(r"^\| \*\*\d+\*\*.*$", text, flags=re.M))
-    if not rows:
-        return text
-    last = rows[-1]
-    return text[:last.end()] + "\n" + row + text[last.end():]
+    header = m.group(1)
+    rows_body = m.group(2).strip()
+    rows = [r.strip() for r in rows_body.splitlines() if r.strip()]
+
+    existing_nums = set()
+    for r in rows:
+        match = re.search(r"\|\s*\*\*(\d+)\*\*\s*\|", r)
+        if match:
+            existing_nums.add(int(match.group(1)))
+
+    for num, folder, topic in days:
+        if num not in existing_nums:
+            topics = readme_topics(folder)
+            highlights = ", ".join(topics[:4]) if topics else "—"
+            row = f"| **{num:02d}** | [{topic}]({quote(folder)}) | {highlights} | ✅ Completed |"
+            rows.append(row)
+
+    def row_day(r):
+        rm = re.search(r"\|\s*\*\*(\d+)\*\*\s*\|", r)
+        return int(rm.group(1)) if rm else 999
+
+    rows.sort(key=row_day)
+    new_section = header + "\n".join(rows) + "\n"
+    return text[:m.start()] + new_section + text[m.end():]
 
 
 def update_readme(days):
@@ -344,8 +378,7 @@ def update_readme(days):
     if days:
         latest = days[-1][0]
         text = update_progress(text, latest)
-        for num, folder, topic in days:
-            text = add_topic_row(text, num, folder, topic)
+        text = update_topics_table(text, days)
     heading = "## 🗂️ Repository Structure"
     text = replace_block(text, "<!-- NOTES:START -->", "<!-- NOTES:END -->", notes_table(days),
                          before_heading=None)

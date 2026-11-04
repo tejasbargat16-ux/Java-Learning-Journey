@@ -5,7 +5,7 @@
 # ☕ Java Learning Journey
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2013%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
+[![Progress](https://img.shields.io/badge/Progress-Day%2018%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
 [![Learning-Pace](https://img.shields.io/badge/Daily%20Practice-Consistent-3b82f6?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
 [![Built-By](https://img.shields.io/badge/Built%20By-Tejas-f97316?style=for-the-badge)](https://github.com/tejasbargat16-ux)
 
@@ -58,17 +58,25 @@ This repository documents my structured 60-day roadmap from core syntax fundamen
 | **09** | [Encapsulation](Day-09-Encapsulation) | Access Modifiers, Getters & Setters, Data Hiding, Bank Demo | ✅ Completed |
 | **10** | [Inheritance](Day-10-Inheritance) | `extends`, `super` Keyword, Method Overriding, Hierarchical Models | ✅ Completed |
 | **11** | [Polymorphism](Day-11-Polymorphism) | Method Overloading & Overriding, Dynamic Dispatch, Payment & Shape Demos | ✅ Completed |
+| **12** | [Abstraction](Day-12-Abstraction) | Abstract Classes & Methods, Interfaces, `extends` & `implements`, Runtime Polymorphism | ✅ Completed |
+| **13** | [Exception Handling](Day-13-Exception-Handling) | Try-Catch-Finally, Throw vs Throws, Custom Exceptions, Safe Input Validation | ✅ Completed |
+| **14** | [Collections](Day-14-Collections) | ArrayList, HashSet, HashMap, Iterators, Student Management Mini-Project | ✅ Completed |
+| **15** | [Generics & Collections](Day-15-Generics-Collections) | Generic Classes & Methods, Bounded Types, Comparable & Comparator, Sorting | ✅ Completed |
+| **16** | [File Handling](Day-16-File-Handling) | File I/O, FileWriter, FileReader, BufferedReader, NIO Files & Path APIs | ✅ Completed |
+| **17** | [Date & Time API](Day-17-Date-Time-API) | LocalDate, LocalTime, LocalDateTime, DateTimeFormatter, Period & Duration | ✅ Completed |
+| **18** | [Multithreading](Day-18-Multithreading) | Thread Class, Runnable Interface, `sleep()`, `join()`, Synchronization & Race Conditions | ✅ Completed |
+
 
 ---
 
 ## 🔜 Coming Up Next
 
 ```
-Day 12 - 20: Abstraction, Interfaces & Abstract Classes
-Day 21 - 30: Exception Handling, Generics & Java Collections Framework (List, Set, Map)
-Day 31 - 40: Java File I/O, Serialization, Multithreading & Concurrency
-Day 41 - 50: JDBC & MySQL Database Connectivity (CRUD Operations & PreparedStatements)
-Day 51 - 60: Real-World Applications & Capstone Projects
+Day 19 - 25: Advanced Multithreading, Thread Pools, ExecutorService & Concurrency
+Day 26 - 35: Java 8+ Functional Programming (Lambdas, Streams API, Optional) & Serialization
+Day 36 - 45: JDBC & MySQL Database Connectivity (CRUD Operations & PreparedStatements)
+Day 46 - 55: Spring Boot & RESTful Web Services / Java GUI Development
+Day 56 - 60: Real-World Applications & Capstone Projects
 ```
 
 ---
@@ -143,6 +151,11 @@ classDiagram
 | **11** | Polymorphism | [📓 Open notes](Notes/Day-11-Polymorphism.md) |
 | **12** | Abstraction | [📓 Open notes](Notes/Day-12-Abstraction.md) |
 | **13** | Exception Handling | [📓 Open notes](Notes/Day-13-Exception-Handling.md) |
+| **14** | Collections | [📓 Open notes](Notes/Day-14-Collections.md) |
+| **15** | Generics Collections | [📓 Open notes](Notes/Day-15-Generics-Collections.md) |
+| **16** | File Handling | [📓 Open notes](Notes/Day-16-File-Handling.md) |
+| **17** | Date Time API | [📓 Open notes](Notes/Day-17-Date-Time-API.md) |
+| **18** | Multithreading | [📓 Open notes](Notes/Day-18-Multithreading.md) |
 <!-- NOTES:END -->
 
 ---
@@ -152,7 +165,7 @@ classDiagram
 > 🤖 This section is auto-updated by a GitHub Action on every push.
 
 <!-- STRUCTURE:START -->
-**16 folders · 205 files** — tap a folder to expand 👇
+**22 folders · 275 files** — tap a folder to expand 👇
 
 <details>
 <summary>📁 <b>Day-01-Basics</b> — 8 files</summary>
@@ -421,7 +434,101 @@ classDiagram
 </details>
 
 <details>
-<summary>📁 <b>Notes</b> — 13 files</summary>
+<summary>📁 <b>Day-14-Collections</b> — 10 files</summary>
+
+- ☕ [ArrayListExample.java](Day-14-Collections/ArrayListExample.java)
+- ☕ [CollectionIteration.java](Day-14-Collections/CollectionIteration.java)
+- ☕ [HashMapExample.java](Day-14-Collections/HashMapExample.java)
+- ☕ [HashSetExample.java](Day-14-Collections/HashSetExample.java)
+- ☕ [MarksLookup.java](Day-14-Collections/MarksLookup.java)
+- 📝 [README.md](Day-14-Collections/README.md)
+- ☕ [ShoppingList.java](Day-14-Collections/ShoppingList.java)
+- ☕ [Student.java](Day-14-Collections/Student.java)
+- ☕ [StudentManagement.java](Day-14-Collections/StudentManagement.java)
+- ☕ [UniqueSkills.java](Day-14-Collections/UniqueSkills.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-15-Generics-Collections</b> — 15 files</summary>
+
+- ☕ [BoundedGenericDemo.java](Day-15-Generics-Collections/BoundedGenericDemo.java)
+- ☕ [CollectionsSortDemo.java](Day-15-Generics-Collections/CollectionsSortDemo.java)
+- ☕ [GenericBox.java](Day-15-Generics-Collections/GenericBox.java)
+- ☕ [GenericBoxDemo.java](Day-15-Generics-Collections/GenericBoxDemo.java)
+- ☕ [GenericListExample.java](Day-15-Generics-Collections/GenericListExample.java)
+- ☕ [GenericMaximum.java](Day-15-Generics-Collections/GenericMaximum.java)
+- ☕ [GenericMethodDemo.java](Day-15-Generics-Collections/GenericMethodDemo.java)
+- ☕ [GenericPrinter.java](Day-15-Generics-Collections/GenericPrinter.java)
+- ☕ [GenericRepository.java](Day-15-Generics-Collections/GenericRepository.java)
+- ☕ [GenericRepositoryDemo.java](Day-15-Generics-Collections/GenericRepositoryDemo.java)
+- ☕ [MarksSorter.java](Day-15-Generics-Collections/MarksSorter.java)
+- ☕ [Pair.java](Day-15-Generics-Collections/Pair.java)
+- ☕ [PairDemo.java](Day-15-Generics-Collections/PairDemo.java)
+- 📝 [README.md](Day-15-Generics-Collections/README.md)
+- ☕ [StudentSorter.java](Day-15-Generics-Collections/StudentSorter.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-16-File-Handling</b> — 12 files</summary>
+
+- ☕ [AppendFile.java](Day-16-File-Handling/AppendFile.java)
+- ☕ [CreateFile.java](Day-16-File-Handling/CreateFile.java)
+- ☕ [DirectoryManager.java](Day-16-File-Handling/DirectoryManager.java)
+- ☕ [FileInformation.java](Day-16-File-Handling/FileInformation.java)
+- ☕ [FilesExample.java](Day-16-File-Handling/FilesExample.java)
+- ☕ [NotesManager.java](Day-16-File-Handling/NotesManager.java)
+- ☕ [ProfileReader.java](Day-16-File-Handling/ProfileReader.java)
+- ☕ [ProfileWriter.java](Day-16-File-Handling/ProfileWriter.java)
+- 📝 [README.md](Day-16-File-Handling/README.md)
+- ☕ [ReadFile.java](Day-16-File-Handling/ReadFile.java)
+- ☕ [WordCounter.java](Day-16-File-Handling/WordCounter.java)
+- ☕ [WriteFile.java](Day-16-File-Handling/WriteFile.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-17-Date-Time-API</b> — 14 files</summary>
+
+- ☕ [AgeCalculator.java](Day-17-Date-Time-API/AgeCalculator.java)
+- ☕ [DateFormatterExample.java](Day-17-Date-Time-API/DateFormatterExample.java)
+- ☕ [DateParsing.java](Day-17-Date-Time-API/DateParsing.java)
+- ☕ [DurationExample.java](Day-17-Date-Time-API/DurationExample.java)
+- ☕ [ExamCountdown.java](Day-17-Date-Time-API/ExamCountdown.java)
+- ☕ [InstantExample.java](Day-17-Date-Time-API/InstantExample.java)
+- ☕ [LocalDateExample.java](Day-17-Date-Time-API/LocalDateExample.java)
+- ☕ [LocalDateTimeExample.java](Day-17-Date-Time-API/LocalDateTimeExample.java)
+- ☕ [LocalTimeExample.java](Day-17-Date-Time-API/LocalTimeExample.java)
+- ☕ [MeetingScheduler.java](Day-17-Date-Time-API/MeetingScheduler.java)
+- ☕ [PeriodExample.java](Day-17-Date-Time-API/PeriodExample.java)
+- 📝 [README.md](Day-17-Date-Time-API/README.md)
+- ☕ [TaskDeadlineManager.java](Day-17-Date-Time-API/TaskDeadlineManager.java)
+- ☕ [TimeZoneExample.java](Day-17-Date-Time-API/TimeZoneExample.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-18-Multithreading</b> — 13 files</summary>
+
+- ☕ [CounterPractice.java](Day-18-Multithreading/CounterPractice.java)
+- ☕ [DelayedTaskPractice.java](Day-18-Multithreading/DelayedTaskPractice.java)
+- ☕ [JoinExample.java](Day-18-Multithreading/JoinExample.java)
+- ☕ [JoinPractice.java](Day-18-Multithreading/JoinPractice.java)
+- ☕ [MultithreadedTaskRunner.java](Day-18-Multithreading/MultithreadedTaskRunner.java)
+- 📝 [README.md](Day-18-Multithreading/README.md)
+- ☕ [RunnableExample.java](Day-18-Multithreading/RunnableExample.java)
+- ☕ [SleepExample.java](Day-18-Multithreading/SleepExample.java)
+- ☕ [SynchronizationExample.java](Day-18-Multithreading/SynchronizationExample.java)
+- ☕ [TableThreadPractice.java](Day-18-Multithreading/TableThreadPractice.java)
+- ☕ [ThreadExample.java](Day-18-Multithreading/ThreadExample.java)
+- ☕ [ThreadInfo.java](Day-18-Multithreading/ThreadInfo.java)
+- ☕ [TwoThreadsPractice.java](Day-18-Multithreading/TwoThreadsPractice.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Notes</b> — 18 files</summary>
 
 - 📝 [Day-01-Basics.md](Notes/Day-01-Basics.md)
 - 📝 [Day-02-Input-Operators.md](Notes/Day-02-Input-Operators.md)
@@ -436,6 +543,11 @@ classDiagram
 - 📝 [Day-11-Polymorphism.md](Notes/Day-11-Polymorphism.md)
 - 📝 [Day-12-Abstraction.md](Notes/Day-12-Abstraction.md)
 - 📝 [Day-13-Exception-Handling.md](Notes/Day-13-Exception-Handling.md)
+- 📝 [Day-14-Collections.md](Notes/Day-14-Collections.md)
+- 📝 [Day-15-Generics-Collections.md](Notes/Day-15-Generics-Collections.md)
+- 📝 [Day-16-File-Handling.md](Notes/Day-16-File-Handling.md)
+- 📝 [Day-17-Date-Time-API.md](Notes/Day-17-Date-Time-API.md)
+- 📝 [Day-18-Multithreading.md](Notes/Day-18-Multithreading.md)
 
 </details>
 
@@ -444,6 +556,13 @@ classDiagram
 
 - 🖼️ [banner.png](images/banner.png)
 - 🖼️ [roadmap.jpg](images/roadmap.jpg)
+
+</details>
+
+<details>
+<summary>📁 <b>lib</b> — 1 files</summary>
+
+- 📄 [junit-platform-console-standalone-6.1.3.jar](lib/junit-platform-console-standalone-6.1.3.jar)
 
 </details>
 
@@ -501,7 +620,7 @@ classDiagram
 
 ## 📈 Current Progress
 
-- **Completed:** Day 13 of 60 days
+- **Completed:** Day 18 of 60 days
 - **Status:** In Progress 🚀
 - **Started:** September 2026
 
