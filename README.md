@@ -5,7 +5,7 @@
 # ☕ Java Learning Journey
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2018%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
+[![Progress](https://img.shields.io/badge/Progress-Day%2020%20of%2060-22c55e?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
 [![Learning-Pace](https://img.shields.io/badge/Daily%20Practice-Consistent-3b82f6?style=for-the-badge)](https://github.com/tejasbargat16-ux/Java-Learning-Journey)
 [![Built-By](https://img.shields.io/badge/Built%20By-Tejas-f97316?style=for-the-badge)](https://github.com/tejasbargat16-ux)
 
@@ -65,6 +65,8 @@ This repository documents my structured 60-day roadmap from core syntax fundamen
 | **16** | [File Handling](Day-16-File-Handling) | File I/O, FileWriter, FileReader, BufferedReader, NIO Files & Path APIs | ✅ Completed |
 | **17** | [Date & Time API](Day-17-Date-Time-API) | LocalDate, LocalTime, LocalDateTime, DateTimeFormatter, Period & Duration | ✅ Completed |
 | **18** | [Multithreading](Day-18-Multithreading) | Thread Class, Runnable Interface, `sleep()`, `join()`, Synchronization & Race Conditions | ✅ Completed |
+| **19** | [Lambda & Functional Programming](Day-19-Lambda-Functional-Programming) | Lambda Expressions, Functional Interfaces, Method References, Stream Basics | ✅ Completed |
+| **20** | [Advanced Streams](Day-20-Advanced-Streams) | Optional API, Collectors, groupingBy, partitioningBy, flatMap, Reductions | ✅ Completed |
 
 
 ---
@@ -72,8 +74,8 @@ This repository documents my structured 60-day roadmap from core syntax fundamen
 ## 🔜 Coming Up Next
 
 ```
-Day 19 - 25: Advanced Multithreading, Thread Pools, ExecutorService & Concurrency
-Day 26 - 35: Java 8+ Functional Programming (Lambdas, Streams API, Optional) & Serialization
+Day 21 - 25: Advanced Multithreading, Thread Pools, ExecutorService & Concurrency
+Day 26 - 35: Serialization, Java I/O vs NIO & Design Patterns
 Day 36 - 45: JDBC & MySQL Database Connectivity (CRUD Operations & PreparedStatements)
 Day 46 - 55: Spring Boot & RESTful Web Services / Java GUI Development
 Day 56 - 60: Real-World Applications & Capstone Projects
@@ -156,6 +158,8 @@ classDiagram
 | **16** | File Handling | [📓 Open notes](Notes/Day-16-File-Handling.md) |
 | **17** | Date Time API | [📓 Open notes](Notes/Day-17-Date-Time-API.md) |
 | **18** | Multithreading | [📓 Open notes](Notes/Day-18-Multithreading.md) |
+| **19** | Lambda Functional Programming | [📓 Open notes](Notes/Day-19-Lambda-Functional-Programming.md) |
+| **20** | Advanced Streams | [📓 Open notes](Notes/Day-20-Advanced-Streams.md) |
 <!-- NOTES:END -->
 
 ---
@@ -165,7 +169,7 @@ classDiagram
 > 🤖 This section is auto-updated by a GitHub Action on every push.
 
 <!-- STRUCTURE:START -->
-**22 folders · 275 files** — tap a folder to expand 👇
+**24 folders · 305 files** — tap a folder to expand 👇
 
 <details>
 <summary>📁 <b>Day-01-Basics</b> — 8 files</summary>
@@ -528,7 +532,47 @@ classDiagram
 </details>
 
 <details>
-<summary>📁 <b>Notes</b> — 18 files</summary>
+<summary>📁 <b>Day-19-Lambda-Functional-Programming</b> — 18 files</summary>
+
+- ☕ [FilterPractice.java](Day-19-Lambda-Functional-Programming/FilterPractice.java)
+- ☕ [ForEachLambda.java](Day-19-Lambda-Functional-Programming/ForEachLambda.java)
+- ☕ [FunctionPractice.java](Day-19-Lambda-Functional-Programming/FunctionPractice.java)
+- ☕ [FunctionalInterfacesDemo.java](Day-19-Lambda-Functional-Programming/FunctionalInterfacesDemo.java)
+- ☕ [GreetingDemo.java](Day-19-Lambda-Functional-Programming/GreetingDemo.java)
+- ☕ [LambdaBasic.java](Day-19-Lambda-Functional-Programming/LambdaBasic.java)
+- ☕ [LambdaMultipleStatements.java](Day-19-Lambda-Functional-Programming/LambdaMultipleStatements.java)
+- ☕ [LambdaParameters.java](Day-19-Lambda-Functional-Programming/LambdaParameters.java)
+- ☕ [LambdaSorting.java](Day-19-Lambda-Functional-Programming/LambdaSorting.java)
+- ☕ [MethodReferenceDemo.java](Day-19-Lambda-Functional-Programming/MethodReferenceDemo.java)
+- ☕ [PredicatePractice.java](Day-19-Lambda-Functional-Programming/PredicatePractice.java)
+- 📝 [README.md](Day-19-Lambda-Functional-Programming/README.md)
+- ☕ [ReducePractice.java](Day-19-Lambda-Functional-Programming/ReducePractice.java)
+- ☕ [SortNamesPractice.java](Day-19-Lambda-Functional-Programming/SortNamesPractice.java)
+- ☕ [StreamBasic.java](Day-19-Lambda-Functional-Programming/StreamBasic.java)
+- ☕ [StreamMapSort.java](Day-19-Lambda-Functional-Programming/StreamMapSort.java)
+- ☕ [StreamOperations.java](Day-19-Lambda-Functional-Programming/StreamOperations.java)
+- ☕ [StudentResultAnalyzer.java](Day-19-Lambda-Functional-Programming/StudentResultAnalyzer.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Day-20-Advanced-Streams</b> — 10 files</summary>
+
+- ☕ [AdvancedStreamOps.java](Day-20-Advanced-Streams/AdvancedStreamOps.java)
+- ☕ [CollectorsDemo.java](Day-20-Advanced-Streams/CollectorsDemo.java)
+- ☕ [Employee.java](Day-20-Advanced-Streams/Employee.java)
+- ☕ [EmployeeData.java](Day-20-Advanced-Streams/EmployeeData.java)
+- ☕ [GroupingDemo.java](Day-20-Advanced-Streams/GroupingDemo.java)
+- ☕ [OptionalDemo.java](Day-20-Advanced-Streams/OptionalDemo.java)
+- ☕ [PracticeSolutions.java](Day-20-Advanced-Streams/PracticeSolutions.java)
+- 📝 [README.md](Day-20-Advanced-Streams/README.md)
+- ☕ [Student.java](Day-20-Advanced-Streams/Student.java)
+- ☕ [StudentAnalyticsApp.java](Day-20-Advanced-Streams/StudentAnalyticsApp.java)
+
+</details>
+
+<details>
+<summary>📁 <b>Notes</b> — 20 files</summary>
 
 - 📝 [Day-01-Basics.md](Notes/Day-01-Basics.md)
 - 📝 [Day-02-Input-Operators.md](Notes/Day-02-Input-Operators.md)
@@ -548,6 +592,8 @@ classDiagram
 - 📝 [Day-16-File-Handling.md](Notes/Day-16-File-Handling.md)
 - 📝 [Day-17-Date-Time-API.md](Notes/Day-17-Date-Time-API.md)
 - 📝 [Day-18-Multithreading.md](Notes/Day-18-Multithreading.md)
+- 📝 [Day-19-Lambda-Functional-Programming.md](Notes/Day-19-Lambda-Functional-Programming.md)
+- 📝 [Day-20-Advanced-Streams.md](Notes/Day-20-Advanced-Streams.md)
 
 </details>
 
@@ -620,7 +666,7 @@ classDiagram
 
 ## 📈 Current Progress
 
-- **Completed:** Day 18 of 60 days
+- **Completed:** Day 20 of 60 days
 - **Status:** In Progress 🚀
 - **Started:** September 2026
 
